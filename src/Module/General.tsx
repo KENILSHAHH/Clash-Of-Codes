@@ -167,58 +167,66 @@ const schedule = [
 const Prizeinfo = [
   [
     //Array 1
+    {},
+    
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'overall First',
-      content:
-        'First Overall prize will be given to a project that outstands all other submissions'
-    },
-    {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'overall Second',
-      content:
-        'Second Overall prize will be given to the second best project of the hackathon'
-    },
-    {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
-      content:
-        'Best third overall project of the hackathon will win some awesome prizes'
-    }
-  ],
+      icon: <i className="first fas fa-4x fa-trophy" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+      type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}> Best Hack Built overall</div>,
+      content: <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}> Grand Prize of ₹40,000/-</div>, 
+    },{}
+  ]
+  // [
+  //   {
+  //     icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+  //     type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Second Best Hack built overall</div>,
+  //     content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹20,000/-</div>
+        
+  //   },{},
+  //   {
+  //     icon: <i className=" third fas fa-4x fa-skiing-nordic" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+  //     type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Third Best Hack Built overall</div> ,
+  //     content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹10,000/-</div>
+        
+  //   }
+  // ],
+  
+];
+const Prizee = [
+  [
+  {
+    icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+    type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Second Best Hack built overall</div>,
+    content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹20,000/-</div>
+      
+  },
+  {
+    icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+    type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Third Best Hack Built overall</div> ,
+    content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹10,000/-</div>
+      
+  }
+]
+]
+const Prizeee = [
   [
     //Array 2
     {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: 'Best Solo',
-      content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
+      icon: <i className="fab fourth fa-3x fa-wpbeginner" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+      type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of Blockchain</div>,
+      content:<div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div>,
     },
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
+      icon: <i className="first fas fa-4x fa-trophy" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+      type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of web/app dev</div> ,
+      content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div>
     },
     {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
-      content: 'More prizes will be revealed later'
+      icon: <i className=" fifth fa-3x fas fa-book-open" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
+      type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of AI/ML</div>,
+      content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center" , fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div> 
     }
   ]
-];
+]
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -334,45 +342,45 @@ const frequentlyAskedQuestions = [
   [
     [
       {
-        label: 'What is a hackathon?',
+        label: 'What is Clash-Of-Codes?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+        'Clash-Of-Codes is a 24 hour hackathon based on the latest technical fields that will bring together several teams to generate high-value actionable business ideas and product concepts. This hackathon covers the domains of web development, app development , blockchain , artificial intelligence and machine learning.'
       },
       {
-        label: 'Who can attend?',
+        label: 'Who can participate?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'Clash-Of-Codes is open to all undergraduate students. Acceptance of applications is based on their interest in the available domains'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'When will the applications close?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'The application period will close on 25th February 2022 at 11:59 PM IST. We evaluate applications on a rolling basis and will notify acceptance via email.'
       },
       {
-        label: 'How team formation works?',
+        label: 'Is it free of cost?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "Absolutely zero. Participation in ClashOfCodes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding"
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How do you evaluate the applications?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'Folks who are passionate enough to work on crazy world-changing ideas.We can get to know you better from your past projects, open source contributions, GitHub/Devfolio profile, and participation in hackathons.'
       },
       {
-        label: 'I have more questions?',
+        label: 'What could be the size of each team?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'A particular team can contain members from 2-4. If you are looking for team members you can join our discord, we will be having team formation at our discord'
       },
       {
-        label: 'Can i volunteer?',
+        label: 'Do you provide travel reimbursement to hackers?',
         content:
-          'Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you.'
+          'Clash-Of-Codes is free of charge thanks to our sponsors, but the hackathon cannot cover the travel and other expenses for the attendees yet.'
       },
       {
-        label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        label: 'Did we miss something?',
+        content: 'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, One of our brains will reach out to you as soon as possible.'
       }
     ]
   ]
@@ -384,6 +392,8 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  Prizee,
+  Prizeee,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,
@@ -391,3 +401,4 @@ export {
   schedule,
   calenderStartingDate
 };
+

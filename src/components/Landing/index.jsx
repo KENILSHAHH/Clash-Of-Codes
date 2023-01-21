@@ -1,5 +1,14 @@
 import './style.css';
 import background from './title-scrolling.png'
+import BIRDS from 'vanta/dist/vanta.birds.min'
+import React, { useState, useEffect, useRef } from 'react'
+import NET from 'vanta/dist/vanta.net.min'
+import {SOCIALS, TOP_SECTION} from '../../Module/General';
+import MytypedComponent from '../Typed/index.js';
+// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
+
+
+
 
 const Btn = props => {
   return (
@@ -13,30 +22,46 @@ const Btn = props => {
   );
 };
 
-const About = () => {
+// const About = (props) => {
+//   const [vantaEffect, setVantaEffect] = useState(null)
+//   const myRef = useRef(null)
+//   useEffect(() => {
+//     if (!vantaEffect) {
+//       setVantaEffect(NET({
+//         el: myRef.current
+//       }))
+//     }
+//     return () => {
+//       if (vantaEffect) vantaEffect.destroy()
+//     }
+//   }, [vantaEffect]) 
+//    return <div ref={myRef}>
+//   Foreground content goes here
+// </div>
+// }
+const About = (props) => {
+  // const [vantaEffect, setVantaEffect] = useState(null)
+  //   const myRef = useRef(null)
+  //   useEffect(() => {
+  //     if (!vantaEffect) {
+  //       setVantaEffect(NET({
+  //         el: myRef.current,
+  //         minWidth: 500.00,
+  //         minHeight: 800.00
+  //       }))
+  //     }
+  //     return () => {
+  //       if (vantaEffect) vantaEffect.destroy()
+  //     }
+  //   }, [vantaEffect]) 
   return (
-    <div className="masthead">
-    <div className="container d-flex h-100 align-items-center">
-      <div className="mx-auto text-center no-select">
-        <h1 className="mx-auto my-0 title-text" style={{ fontFamily: "Title",
-  textAlign: "center",
-  opacity: "1",
-  backgroundImage: `url("${background}")`,
-  backgroundRepeat: "repeat-x",
-  WebkitBackgroundClip: "text",
-  WebkitTextFillColor: "transparent",
-  animation: "animate 150s linear infinite"}}>CreatED Hack '20</h1>
-        
-        <h2 className="orange mx-auto mt-2 mb-1 sub-heading" style={{width: "100%"}}>14<sup>th</sup>-15<sup>th</sup> March 2020</h2>
-        <h2 className="white mx-auto mt-2 mb-3 sub-heading" style={{width: "100%"}}>Appleton Tower Concourse, The University of Edinburgh</h2>
-        <div id="button-box">
-          <a href="https://www.facebook.com/createdhack/" className="btn btn-primary js-scroll-trigger" style={{zIndex: "1", position: "relative" }} >CreatED Hack has been postponded</a>
-        </div>
-      </div>
+    <div className="AboutMe" >
+      <h2>{TOP_SECTION.TITLE}</h2>
+      <MytypedComponent />
     </div>
-  </div>
   );
 };
+
 
 const Myinfo = () => {
  return (

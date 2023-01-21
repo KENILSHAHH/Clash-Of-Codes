@@ -1,13 +1,14 @@
-import {useEffect, useRef, useState} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {HashLink as Link} from 'react-router-hash-link';
+import { useEffect, useRef, useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
-import {MdxContent} from '../Mdx';
+
+import { MdxContent } from '../Mdx';
 
 const NAVIGATION_OFFSET = 66;
 
@@ -70,6 +71,7 @@ const NAVBAR = ({}) => {
     return () => window.removeEventListener('scroll', listenScrollEvent);
   }, []);
 
+
   const handleOutsideCick = (event, ref) => {
     if (!ref.current.contains(event.target)) {
       setToggle(true);
@@ -92,6 +94,7 @@ const NAVBAR = ({}) => {
 
   return (
     <Router>
+      
       <nav className={`nav_bar ${isOffset && 'nav_bar-offset-crossed'}`}>
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
@@ -136,15 +139,19 @@ const NAVBAR = ({}) => {
           src={hamLogo}
         />
       </nav>
-
+      
       <Switch>
         <Route path="/blog" exact={true}>
           <MdxContent />
         </Route>
         <Route path="/" exact={true}>
-          <HomePage />
+          <HomePage/>
+         
+        
+
         </Route>
       </Switch>
+     
     </Router>
   );
 };
