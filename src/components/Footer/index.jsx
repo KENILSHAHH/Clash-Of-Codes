@@ -119,7 +119,7 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️</p>
+          <p>Made with ❤️ by Sharmila and team</p>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
