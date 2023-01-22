@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Clash-Of-Codes/static/css/main.314bf5f1.chunk.css",
+    "main.js": "/Clash-Of-Codes/static/js/main.b58e3efe.chunk.js",
+    "main.js.map": "/Clash-Of-Codes/static/js/main.b58e3efe.chunk.js.map",
+    "runtime-main.js": "/Clash-Of-Codes/static/js/runtime-main.c4a04f6c.js",
+    "runtime-main.js.map": "/Clash-Of-Codes/static/js/runtime-main.c4a04f6c.js.map",
+    "static/js/2.d13d6049.chunk.js": "/Clash-Of-Codes/static/js/2.d13d6049.chunk.js",
+    "static/js/2.d13d6049.chunk.js.map": "/Clash-Of-Codes/static/js/2.d13d6049.chunk.js.map",
+    "index.html": "/Clash-Of-Codes/index.html",
+    "static/css/main.314bf5f1.chunk.css.map": "/Clash-Of-Codes/static/css/main.314bf5f1.chunk.css.map",
+    "static/js/2.d13d6049.chunk.js.LICENSE.txt": "/Clash-Of-Codes/static/js/2.d13d6049.chunk.js.LICENSE.txt",
+    "static/media/Ryah.6f561055.jpg": "/Clash-Of-Codes/static/media/Ryah.6f561055.jpg",
+    "static/media/boy.9e16116b.png": "/Clash-Of-Codes/static/media/boy.9e16116b.png",
+    "static/media/cross.cdc3eebf.svg": "/Clash-Of-Codes/static/media/cross.cdc3eebf.svg",
+    "static/media/devfolio.1036b3e6.png": "/Clash-Of-Codes/static/media/devfolio.1036b3e6.png",
+    "static/media/filecoin.340ab927.png": "/Clash-Of-Codes/static/media/filecoin.340ab927.png",
+    "static/media/hackathonLogo.3146272b.png": "/Clash-Of-Codes/static/media/hackathonLogo.3146272b.png",
+    "static/media/ham-c.8ab7632d.svg": "/Clash-Of-Codes/static/media/ham-c.8ab7632d.svg",
+    "static/media/ham.a63ab4de.svg": "/Clash-Of-Codes/static/media/ham.a63ab4de.svg",
+    "static/media/icons8-dev-post.15a5555a.svg": "/Clash-Of-Codes/static/media/icons8-dev-post.15a5555a.svg",
+    "static/media/icons8-discord.4ccbeee9.svg": "/Clash-Of-Codes/static/media/icons8-discord.4ccbeee9.svg",
+    "static/media/icons8-instagram.89b88306.svg": "/Clash-Of-Codes/static/media/icons8-instagram.89b88306.svg",
+    "static/media/icons8-linkedin-2.524f8b6e.svg": "/Clash-Of-Codes/static/media/icons8-linkedin-2.524f8b6e.svg",
+    "static/media/icons8-mail.650ff70b.svg": "/Clash-Of-Codes/static/media/icons8-mail.650ff70b.svg",
+    "static/media/icons8-twitter.0521e950.svg": "/Clash-Of-Codes/static/media/icons8-twitter.0521e950.svg",
+    "static/media/lyin.ce4bedbc.jpg": "/Clash-Of-Codes/static/media/lyin.ce4bedbc.jpg",
+    "static/media/me.20bfabc7.png": "/Clash-Of-Codes/static/media/me.20bfabc7.png",
+    "static/media/moon.73697ab9.png": "/Clash-Of-Codes/static/media/moon.73697ab9.png",
+    "static/media/pattern4.d7089884.png": "/Clash-Of-Codes/static/media/pattern4.d7089884.png",
+    "static/media/polygon.8b114b50.png": "/Clash-Of-Codes/static/media/polygon.8b114b50.png",
+    "static/media/replit.e5f3c8b6.png": "/Clash-Of-Codes/static/media/replit.e5f3c8b6.png",
+    "static/media/solana.5f12adb7.png": "/Clash-Of-Codes/static/media/solana.5f12adb7.png",
+    "static/media/style.css": "/Clash-Of-Codes/static/media/title-scrolling.a099496e.png",
+    "static/media/zoha.3b9b6b45.png": "/Clash-Of-Codes/static/media/zoha.3b9b6b45.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4a04f6c.js",
+    "static/js/2.d13d6049.chunk.js",
+    "static/css/main.314bf5f1.chunk.css",
+    "static/js/main.b58e3efe.chunk.js"
+  ]
+}
