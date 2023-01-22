@@ -1,5 +1,5 @@
 import {UseMedia} from 'hooks/useMedia';
-
+import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import React, {useState, useEffect, useRef} from 'react';
 import NET from 'vanta/dist/vanta.net.min';
@@ -230,7 +230,7 @@ export default function HomePage() {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          {/* <SponsorUS /> */}
+          <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}

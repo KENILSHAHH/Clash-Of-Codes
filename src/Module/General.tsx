@@ -40,7 +40,7 @@ import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
   TITLE: 'Clash-Of-Codes',
-  Typed_effect: ['Code', 'Optimize', 'Collaborate'],
+  Typed_effect: ['Code.', 'Optimize.', 'Collaborate.'],
   SHORT_DESCRIPTION: '4th and 5th March, 2023',
   desc: 'Dwarkadas J Sanghvi College of Engineering, Mumbai',
   IMG_SRC: boy,
@@ -515,8 +515,8 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: devfolio}, {}, {src: polygon}], //Array 1
-  [{src: solana}, {src: replit}, {src: filecoin}] //Array 4
+  [{src: devfolio}, {src:filecoin}, {src: polygon}], //Array 1
+  [{src: solana}, {src: replit}, {src: taskade}] //Array 4
 ];
 
 /** Instructions

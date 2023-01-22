@@ -98,29 +98,29 @@ const NAVBAR = ({}) => {
             <ul>
               <li>
                 <Link to={`#home`}>
-                  <span className="links">Home </span>{' '}
+                  <span className="links">Home</span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#faq`}>
-                  <span className="links">FAQ </span>{' '}
+                  <span className="links">FAQ's</span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#prizes`}>
-                  <span className="links">prizes </span>{' '}
+                  <span className="links">Prizes</span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#sponsors`}>
-                  <span className="links">sponsors </span>{' '}
+                  <span className="links">Sponsors</span>{' '}
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to={`#team`}>
                   <span className="links">team </span>{' '}
                 </Link>
-              </li>
+              </li> */}
               <img
                 className="s-close"
                 onClick={() => setToggle(true)}
