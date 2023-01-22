@@ -69,6 +69,12 @@ const Myinfo = () => {
  return (
      <div className="Myinfo">
        <About />
+       <div 
+	class="apply-button" 
+	data-hackathon-slug="https://ethforall.devfolio.co/" 
+	data-button-theme="light"
+	style="height: 44px; width: 312px"
+></div>
        </div>
  )
  

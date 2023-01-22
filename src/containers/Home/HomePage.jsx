@@ -187,6 +187,16 @@ export default function HomePage() {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
 
   return (
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
@@ -195,6 +205,7 @@ export default function HomePage() {
           <Row className="Row info">
             <Col className="info-div" sm={12}>
               <Myinfo />
+             
             </Col>
           </Row>
         </Container>
