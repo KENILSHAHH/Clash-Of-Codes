@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kenilshahh.github.io/Clash-Of-Codes",
+   "homepage" : "https://kenilshahh.github.io/Clash-Of-Codes",
   "name": "hackathon-website-template",
   "version": "0.1.0",
   "private": true,
@@ -36,10 +36,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": " npm run build",
-    "deploy": "gh-pages -d build",
+   "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build", 
     "test": "react-scripts test",
+    "build" : "react-scripts build",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install"
