@@ -5,8 +5,8 @@ import './sponsors.scss';
 function SponsorsHead() {
   return <h1 className="shead">Sponsors & Partners</h1>;
 }
-function Faqs(){
-  return <h1 className= "shead"> FAQ's </h1>
+function Faqs() {
+  return <h1 className="shead"> FAQ's </h1>;
 }
 
 function Sponsor(props) {
@@ -28,4 +28,4 @@ function SponsorUS() {
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS,Faqs};
+export {SponsorsHead, Sponsor, SponsorUS, Faqs};

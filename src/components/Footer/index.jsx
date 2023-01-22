@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { SOCIALS, TOP_SECTION } from '../../Module/General';
+import {useEffect, useState} from 'react';
+import {SOCIALS, TOP_SECTION} from '../../Module/General';
 import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
 import Dis from './assets/icons8-discord.svg';

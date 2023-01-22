@@ -20,11 +20,11 @@ import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
 import lyin from './Assets/teami/lyin.jpg';
-import devfolio from './Assets/sponsorsLogos/devfolio.png'
-import polygon from './Assets/sponsorsLogos/polygon.png'
-import replit from './Assets/sponsorsLogos/replit.png'
-import solana from './Assets/sponsorsLogos/solana.png'
-import filecoin from './Assets/sponsorsLogos/filecoin.png'
+import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import polygon from './Assets/sponsorsLogos/polygon.png';
+import replit from './Assets/sponsorsLogos/replit.png';
+import solana from './Assets/sponsorsLogos/solana.png';
+import filecoin from './Assets/sponsorsLogos/filecoin.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -41,11 +41,10 @@ import zoha from './Assets/teami/zoha.png';
 const TOP_SECTION = {
   TITLE: 'Clash-Of-Codes',
   Typed_effect: ['Code', 'Optimize', 'Collaborate'],
-  SHORT_DESCRIPTION:
-    '4th and 5th March, 2023',
-    desc: 'Dwarkadas J Sanghvi College of Engineering, Mumbai',
+  SHORT_DESCRIPTION: '4th and 5th March, 2023',
+  desc: 'Dwarkadas J Sanghvi College of Engineering, Mumbai',
   IMG_SRC: boy,
-  
+
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
     'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
@@ -58,7 +57,7 @@ const SOCIALS = {
   discord: 'https://discord.gg/bdt5kFF7aR',
   linkedin: 'https://www.linkedin.com/in/clash-of-codes-hackathon-a9a413263/',
   twitter: 'https://twitter.com/Clash_of_Codes',
-  
+
   email: 'mailto:clashofcodeshackathon@gmail.com',
   mail: 'clashofcodeshackathon@gmail.com'
 };
@@ -175,65 +174,245 @@ const Prizeinfo = [
   [
     //Array 1
     {},
-    
+
     {
-      icon: <i className="first fas fa-4x fa-trophy" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-      type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}> Best Hack Built overall</div>,
-      content: <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}> Grand Prize of ₹40,000/-</div>, 
-    },{}
+      icon: (
+        <i
+          className="first fas fa-4x fa-trophy"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          {' '}
+          Best Hack Built overall
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          {' '}
+          Grand Prize of ₹40,000/-
+        </div>
+      )
+    },
+    {}
   ]
   // [
   //   {
   //     icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
   //     type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Second Best Hack built overall</div>,
   //     content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹20,000/-</div>
-        
+
   //   },{},
   //   {
   //     icon: <i className=" third fas fa-4x fa-skiing-nordic" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
   //     type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Third Best Hack Built overall</div> ,
   //     content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹10,000/-</div>
-        
+
   //   }
   // ],
-  
 ];
 const Prizee = [
   [
-  {
-    icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-    type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Second Best Hack built overall</div>,
-    content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹20,000/-</div>
-      
-  },
-  {
-    icon: <i className=" second fas fa-4x fa-medal" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-    type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Third Best Hack Built overall</div> ,
-    content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Grand Prize of ₹10,000/-</div>
-      
-  }
-]
-]
+    {
+      icon: (
+        <i
+          className=" second fas fa-4x fa-medal"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Second Best Hack built overall
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          Grand Prize of ₹20,000/-
+        </div>
+      )
+    },
+    {
+      icon: (
+        <i
+          className=" second fas fa-4x fa-medal"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Third Best Hack Built overall
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          Grand Prize of ₹10,000/-
+        </div>
+      )
+    }
+  ]
+];
 const Prizeee = [
   [
     //Array 2
     {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-      type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of Blockchain</div>,
-      content:<div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div>,
+      icon: (
+        <i
+          className="fab fourth fa-3x fa-wpbeginner"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Best hack built in domain of Blockchain
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          Cash Prize of ₹10,000/-
+        </div>
+      )
     },
     {
-      icon: <i className="first fas fa-4x fa-trophy" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-      type: <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of web/app dev</div> ,
-      content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center",fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div>
+      icon: (
+        <i
+          className="first fas fa-4x fa-trophy"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Best hack built in domain of web/app dev
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          Cash Prize of ₹10,000/-
+        </div>
+      )
     },
     {
-      icon: <i className=" fifth fa-3x fas fa-book-open" style={{display: "flex", justifyContent : "center", alignItems: "center"}}></i>,
-      type:  <div style={{display: "flex", justifyContent : "center", alignItems: "center"}}>Best hack built in domain of AI/ML</div>,
-      content:  <div style={{display: "flex", justifyContent : "center", alignItems: "center" , fontWeight: "bold"}}>Cash Prize of ₹10,000/-</div> 
+      icon: (
+        <i
+          className=" fifth fa-3x fas fa-book-open"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          Best hack built in domain of AI/ML
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+          Cash Prize of ₹10,000/-
+        </div>
+      )
     }
   ]
-]
+];
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -336,8 +515,8 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: devfolio},{}, {src: polygon}], //Array 1
-  [{src: solana}, {src: replit}, {src: filecoin}]//Array 4
+  [{src: devfolio}, {}, {src: polygon}], //Array 1
+  [{src: solana}, {src: replit}, {src: filecoin}] //Array 4
 ];
 
 /** Instructions
@@ -349,7 +528,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is Clash-Of-Codes?',
         content:
-        'Clash-Of-Codes is a 24 hour hackathon based on the latest technical fields that will bring together several teams to generate high-value actionable business ideas and product concepts. This hackathon covers the domains of web development, app development , blockchain , artificial intelligence and machine learning.'
+          'Clash-Of-Codes is a 24 hour hackathon based on the latest technical fields that will bring together several teams to generate high-value actionable business ideas and product concepts. This hackathon covers the domains of web development, app development , blockchain , artificial intelligence and machine learning.'
       },
       {
         label: 'Who can participate?',
@@ -364,7 +543,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Is it free of cost?',
         content:
-          "Absolutely zero. Participation in ClashOfCodes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding"
+          'Absolutely zero. Participation in ClashOfCodes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding'
       }
     ],
     [
@@ -385,7 +564,8 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Did we miss something?',
-        content: 'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, One of our brains will reach out to you as soon as possible.'
+        content:
+          'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, One of our brains will reach out to you as soon as possible.'
       }
     ]
   ]
@@ -406,4 +586,3 @@ export {
   schedule,
   calenderStartingDate
 };
-
