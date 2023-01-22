@@ -1,6 +1,5 @@
-import {useEffect, useState} from 'react';
-import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
-import {Btn} from '../Landing/index.jsx';
+import { useEffect, useState } from 'react';
+import { SOCIALS, TOP_SECTION } from '../../Module/General';
 import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
 import Dis from './assets/icons8-discord.svg';
@@ -8,8 +7,6 @@ import Insta from './assets/icons8-instagram.svg';
 import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
 import Twitter from './assets/icons8-twitter.svg';
-import PrivacyPolicy from './assets/Privacy policy.pdf';
-import TermsOfUse from './assets/Terms of use.pdf';
 //------------------------------------------------------------------
 import './style.scss';
 
@@ -20,8 +17,6 @@ const GithubTemplate = ({hideTemplate}) => {
         <p>
           Join us to{' '}
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
-          where we will be hosting PUBLIC workshops, tech talks, panel
-          discussions, and career sessions!
         </p>
       </div>
       <img onClick={hideTemplate} src={cross} />
@@ -81,7 +76,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="Register_a">
+        {/* <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Fill the form" />
           </a>
@@ -90,9 +85,9 @@ const Footer = () => {
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
           )}
-        </div>
+        </div> */}
         <div className="footer_info">
-          <p>
+          {/* <p>
             Contact us{' '}
             <a href={SOCIALS.email}>
               <em>{SOCIALS.mail}</em>
@@ -118,12 +113,12 @@ const Footer = () => {
             >
               <p>Terms of Use</p>
             </a>
-          )}
-          <p>Made with ❤️ by Sharmila and team</p>
+          )} */}
+          <p>Made with ❤️ by Sharmila, Rohan and Ishika</p>
         </div>
-        {template && viewTemplate && (
+        {/* {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
+        )} */}
       </div>
     </div>
   );

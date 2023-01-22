@@ -169,7 +169,12 @@ const Wrapper = styled.div`
     if (!vantaEffect) {
       setVantaEffect(NET({
         el: myRef.current,
-        backgroundColor : 0x121930
+        backgroundColor : 0x121930,
+        color: 0xffff,
+ 
+  points: 9.00,
+  maxDistance: 22.00,
+  spacing: 20.00
       }))
     }
     return () => {
@@ -194,11 +199,7 @@ const Wrapper = styled.div`
           </Row>
         
 
-          <Row className="mediaInfo">
-            <Col sm={12} lg={12} md={12}>
-              <Media />
-            </Col>
-          </Row>
+         
         </Container>
        
       </div>

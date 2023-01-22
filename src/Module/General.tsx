@@ -20,6 +20,11 @@ import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
 import lyin from './Assets/teami/lyin.jpg';
+import devfolio from './Assets/sponsorsLogos/devfolio.png'
+import polygon from './Assets/sponsorsLogos/polygon.png'
+import replit from './Assets/sponsorsLogos/replit.png'
+import solana from './Assets/sponsorsLogos/solana.png'
+import filecoin from './Assets/sponsorsLogos/filecoin.png'
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -35,10 +40,12 @@ import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
   TITLE: 'Clash-Of-Codes',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  Typed_effect: ['Code', 'Optimize', 'Collaborate'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    '4th and 5th March, 2023',
+    desc: 'Dwarkadas J Sanghvi College of Engineering, Mumbai',
   IMG_SRC: boy,
+  
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
     'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
@@ -47,19 +54,19 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://www.instagram.com/djsce.trinity/',
+  discord: 'https://discord.gg/bdt5kFF7aR',
+  linkedin: 'https://www.linkedin.com/in/clash-of-codes-hackathon-a9a413263/',
+  twitter: 'https://twitter.com/Clash_of_Codes',
+  
+  email: 'mailto:clashofcodeshackathon@gmail.com',
+  mail: 'clashofcodeshackathon@gmail.com'
 };
 
 const MIDDLE_SECTION = {
   TITLE: 'What is Clash-Of-Codes',
   LONG_DESCRIPTION:
-    'Clash Of Codes is a 36 hour hackathon that gives all the coding enthusiasts an opportunity to create real world applications. The hackathon fosters collaboration, encourages students to pursue careers in technology and boosts creativity to answer numerous problems that humanity faces.Unleash your potential and show us what you’ve got!',
+    'Clash Of Codes is a 24 hour hackathon that gives all the coding enthusiasts an opportunity to create real world applications. The hackathon fosters collaboration, encourages students to pursue careers in technology and boosts creativity to answer numerous problems that humanity faces.Unleash your potential and show us what you’ve got!',
   LOGO: hackathonLogo
 };
 
@@ -329,10 +336,8 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: devfolio},{}, {src: polygon}], //Array 1
+  [{src: solana}, {src: replit}, {src: filecoin}]//Array 4
 ];
 
 /** Instructions

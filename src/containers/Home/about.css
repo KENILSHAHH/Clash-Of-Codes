@@ -10,7 +10,9 @@
   background-size: auto 100vh;
 }
 .color_sectiom {
+  height: 750px;
   background-color: #121930;
+  
   padding-bottom: 5rem;
 }
 .container-fluid {
