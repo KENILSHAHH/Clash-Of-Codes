@@ -63,7 +63,7 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Clash-Of-Codes',
+  TITLE: 'What is Clash-Of-Codes.',
   LONG_DESCRIPTION:
     'Clash Of Codes is a 24 hour hackathon that gives all the coding enthusiasts an opportunity to create real world applications. The hackathon fosters collaboration, encourages students to pursue careers in technology and boosts creativity to answer numerous problems that humanity faces.Unleash your potential and show us what you’ve got!',
   LOGO: hackathonLogo
