@@ -128,7 +128,7 @@ Honolulu, HI 96814</li>
   </div>
 </nav>
 </div>
-</footer> */} */}
+</footer> */} 
         <div className="footer_info">
           {/* <p>
             Contact us{' '}
