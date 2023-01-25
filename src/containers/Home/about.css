@@ -72,14 +72,16 @@ h1 {
   padding: 17vh 18vh 0 18vh;
   margin-top: -10vh;
   margin-top: 0vh;
+  
 }
 .faqsSection {
   text-align: center;
   margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
-  background-color: lightblue;
+  
 }
+
 
 @media (max-width: 570px) {
   .mediaInfo {

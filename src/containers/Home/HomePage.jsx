@@ -1,4 +1,5 @@
 import {UseMedia} from 'hooks/useMedia';
+
 import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import React, {useState, useEffect, useRef} from 'react';
@@ -30,6 +31,7 @@ import {
 } from '../../Module/General';
 import './about.css';
 import pattern from './assets/pattern4.png';
+import MultiActionAreaCard from './MultiActionAreaCard.js';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -201,9 +203,11 @@ export default function HomePage() {
 }, []);
 
   return (
+    
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
       <div className="color_sectiom" id="home" ref={myRef}>
         <Container fluid>
+         
           <Row className="Row info">
             <Col className="info-div" sm={12}>
               <Myinfo />
@@ -211,6 +215,7 @@ export default function HomePage() {
             </Col>
           </Row>
         </Container>
+        
       </div>
       <Container fluid>
         {/* Logo section  */}
@@ -231,7 +236,9 @@ export default function HomePage() {
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
           {Prizeee.map(Prize3)}
+        
         </Row>
+        
         {/* ********Prizes ending here ***** */}
 
         {/* <Row className="prizesection non-coding">
