@@ -96,9 +96,11 @@ const NAVBAR = ({}) => {
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
             <ul>
-              <li>
+            <li>
                 <Link to={`#home`}>
-                  <span className="links">Home</span>{' '}
+                  
+                    <img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" style={{display : "flex" , alignItems : "center", justifyContent : "center"}} width="40" height="40" />
+                  
                 </Link>
               </li>
               <li>
@@ -116,6 +118,7 @@ const NAVBAR = ({}) => {
                   <span className="links">Sponsors</span>{' '}
                 </Link>
               </li>
+              
               {/* <li>
                 <Link to={`#team`}>
                   <span className="links">team </span>{' '}
