@@ -61,7 +61,7 @@ h1 {
   margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #f3effe;
+  background-color: lightblue;
 }
 
 .Prizes{
@@ -78,6 +78,7 @@ h1 {
   margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
+  background-color: lightblue;
 }
 
 @media (max-width: 570px) {

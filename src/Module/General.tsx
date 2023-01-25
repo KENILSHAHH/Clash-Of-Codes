@@ -538,24 +538,24 @@ const frequentlyAskedQuestions = [
       {
         label: 'When will the applications close?',
         content:
-          'The application period will close on 25th February 2022 at 11:59 PM IST. We evaluate applications on a rolling basis and will notify acceptance via email.'
+          'The application period will close on 23rd February 2023 at 11:59 PM IST. We evaluate applications on a rolling basis and will notify acceptance via email.'
       },
       {
         label: 'Is it free of cost?',
         content:
-          'Absolutely zero. Participation in ClashOfCodes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding'
+          'Participation in Clash-Of-Codes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding'
       }
     ],
     [
       {
         label: 'How do you evaluate the applications?',
         content:
-          'Folks who are passionate enough to work on crazy world-changing ideas.We can get to know you better from your past projects, open source contributions, GitHub/Devfolio profile, and participation in hackathons.'
+          'We can get to know more about you from your past projects, open source contributions, GitHub/Devfolio profile, and participation in hackathons.'
       },
       {
         label: 'What could be the size of each team?',
         content:
-          'A particular team can contain members from 2-4. If you are looking for team members you can join our discord, we will be having team formation at our discord'
+          'A particular team can contain members from 2-4. If you are looking for team members you can join Clash-Of-Codes discord server'
       },
       {
         label: 'Do you provide travel reimbursement to hackers?',
@@ -565,7 +565,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Did we miss something?',
         content:
-          'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, One of our brains will reach out to you as soon as possible.'
+          'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, Our team will reach out to you as soon as possible.'
       }
     ]
   ]

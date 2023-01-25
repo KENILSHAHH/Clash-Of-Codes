@@ -227,7 +227,7 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Prizes" />
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
           {Prizeee.map(Prize3)}
