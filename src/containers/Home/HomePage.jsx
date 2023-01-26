@@ -27,7 +27,9 @@ import {
   Prizee,
   Prizeee,
   Prizeinfo,
-  sponsorLogos
+  Gold,
+  Silver,
+  Bronze
 } from '../../Module/General';
 import './about.css';
 import pattern from './assets/pattern4.png';
@@ -38,6 +40,30 @@ const SponsorGroup = (props, index) => {
     <Row key={index}>
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+  );
+};
+const SponsorBronze = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={6} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+  );
+};
+const Sponsorgroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={6} md={6}>
           {' '}
           <Sponsor srcx={s.src} />{' '}
         </Col>
@@ -250,8 +276,15 @@ export default function HomePage() {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
+         {/* <h1>Title sponsors</h1> */}
+         <h1>Gold Sponsors</h1>
+          {Gold.map(Sponsorgroup)}
+          <h1>Silver Sponsors</h1>
+          {Silver.map(SponsorGroup)}
+        
+          <h1>Bronze Sponsor</h1>
+          {Bronze.map(SponsorBronze)}
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 

@@ -1,30 +1,19 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
-
+import wolfram from './Assets/sponsorsLogos/wolfram.png';
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
-
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
 import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import polygon from './Assets/sponsorsLogos/polygon.png';
 import replit from './Assets/sponsorsLogos/replit.png';
 import solana from './Assets/sponsorsLogos/solana.png';
-import filecoin from './Assets/sponsorsLogos/filecoin.png';
+import taskade from './Assets/sponsorsLogos/taskade.png';
+import lyin from './Assets/teami/lyin.jpg';
+import './style.css';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -188,15 +177,14 @@ const Prizeinfo = [
       ),
       type: (
         <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        >
-          {' '}
-          Best Hack Built overall
-        </div>
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}
+      >
+        Best Hack built Overall
+      </div>
       ),
       content: (
         <div
@@ -207,7 +195,6 @@ const Prizeinfo = [
             fontWeight: 'bold'
           }}
         >
-          {' '}
           Grand Prize of ₹40,000/-
         </div>
       )
@@ -514,10 +501,19 @@ const JudgesInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
-  [{src: devfolio}, {src:filecoin}, {src: polygon}], //Array 1
-  [{src: solana}, {src: replit}, {src: taskade}] //Array 4
+const Silver = [
+   //Array 1
+  [{src: solana}, {src: replit}, {src:filecoin} ] 
+  
+  //Array 4
 ];
+const Gold = [
+  [{src: devfolio}, {src: polygon}]
+  //Array 4
+];
+const Bronze = [
+[{src : taskade} , {src : wolfram}]
+]
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
@@ -579,7 +575,9 @@ export {
   Prizeinfo,
   Prizee,
   Prizeee,
-  sponsorLogos,
+  Silver,
+  Gold,
+  Bronze,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,

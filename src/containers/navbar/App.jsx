@@ -93,16 +93,18 @@ const NAVBAR = ({}) => {
   return (
     <Router>
       <nav className={`nav_bar ${isOffset && 'nav_bar-offset-crossed'}`}>
+        
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
             <ul>
             <li>
                 <Link to={`#home`}>
                   
-                    <img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" style={{display : "flex" , alignItems : "center", justifyContent : "center"}} width="40" height="40" />
+                    <img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" width="40" height="40" />
                   
                 </Link>
-              </li>
+                </li>
+            
               <li>
                 <Link to={`#faq`}>
                   <span className="links">FAQ's</span>{' '}
