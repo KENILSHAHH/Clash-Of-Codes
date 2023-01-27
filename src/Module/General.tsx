@@ -1,5 +1,6 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
 import wolfram from './Assets/sponsorsLogos/wolfram.png';
+import first from './Assets/first.png';
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -166,14 +167,29 @@ const Prizeinfo = [
 
     {
       icon: (
-        <i
+        <div className="flip-card">
+          
+  <div className="flip-card-inner">
+    <div className="flip-card-front">
+    <img src={first} style={{height: "150px", width : "150px"}}/>
+
+    {/* <i
           className="first fas fa-4x fa-trophy"
           style={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center'
           }}
-        ></i>
+        ></i> */}
+    </div>
+    <div className="flip-card-back">
+      <h1>Best Hack Built Overall</h1>
+      <p>Grand Prize of ₹40,000/-</p>
+      
+    </div>
+  </div>
+</div>
+        
       ),
       type: (
         <div
@@ -182,8 +198,7 @@ const Prizeinfo = [
           justifyContent: 'center',
           alignItems: 'center'
         }}
-      >
-        Best Hack built Overall
+   >
       </div>
       ),
       content: (
@@ -195,7 +210,6 @@ const Prizeinfo = [
             fontWeight: 'bold'
           }}
         >
-          Grand Prize of ₹40,000/-
         </div>
       )
     },
