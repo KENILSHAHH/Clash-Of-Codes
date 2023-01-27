@@ -1,39 +1,30 @@
-import {UseMedia} from 'hooks/useMedia';
+import { UseMedia } from 'hooks/useMedia';
 
-import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
-import BIRDS from 'vanta/dist/vanta.birds.min';
-import React, {useState, useEffect, useRef} from 'react';
-import NET from 'vanta/dist/vanta.net.min';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {HashLink as Link} from 'react-router-hash-link';
-import styled from 'styled-components';
+import React, { useEffect, useRef, useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
+import styled from 'styled-components';
+import NET from 'vanta/dist/vanta.net.min';
+import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
+import { Accordion } from '../../components/Accordian/index.jsx';
 import Footer from '../../components/Footer/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
-import Media from '../../components/Socials/index.jsx';
+import { Myinfo } from '../../components/Landing/index.jsx';
+import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
 import {
   Faqs,
   Sponsor,
-  SponsorsHead
+  SponsorsHead, SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
-import {Member} from '../../components/Team';
+import { Member } from '../../components/Team';
 import {
-  frequentlyAskedQuestions,
-  Prizee,
+  Bronze, frequentlyAskedQuestions, Gold, Prizee,
   Prizeee,
-  Prizeinfo,
-  Gold,
-  Silver,
-  Bronze
+  Prizeinfo, Silver, TrackPrizes
 } from '../../Module/General';
 import './about.css';
+
 import pattern from './assets/pattern4.png';
-import MultiActionAreaCard from './MultiActionAreaCard.js';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -103,6 +94,18 @@ const Prize3 = (props, index) => {
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
+    </Row>
+  );
+};
+const Trackprizes = (props,index) => {
+  return (
+    <Row key = {index}>
+      {props.map((s,i) =>(
+        <Col key = {i} className="" sm={12} lg={4} md={4}>
+          <FirstPrize icon={s.icon} type={s.type} content = {s.content} />
+        </Col>
+      )
+      )}
     </Row>
   );
 };
@@ -258,11 +261,13 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prizes" />
+          <PrizeHeading type="Prizes"/>
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
           {Prizeee.map(Prize3)}
-        
+          <PrizeHeading type = "Track Prizes"/>
+          {TrackPrizes.map(Trackprizes)}
+                  
         </Row>
         
         {/* ********Prizes ending here ***** */}

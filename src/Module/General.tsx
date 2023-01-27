@@ -1,6 +1,5 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
 import wolfram from './Assets/sponsorsLogos/wolfram.png';
-import first from './Assets/first.png';
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -425,6 +424,107 @@ const Prizeee = [
   ]
 ];
 
+const TrackPrizes = [
+  [
+    //Array 2
+    {
+      icon: (
+        <div className="card" style={{backgroundColor :'white'}}>
+  <img src={polygon} alt="Avatar" style={{width:"100%"}}/>
+ 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹10,000 for the best hack built on Ethereum Or</div> 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹15,000 for the best hack built on Ethereum + Polygon</div>
+     <div style={{fontSize : "20px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}> Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! Learn more about the Polygon Track Prize <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"> here</a> </div>
+      
+  
+</div>
+      
+      ),
+      type: (
+        <div
+          
+        >
+         
+        </div>
+       
+      ),
+      content: (
+        <></>
+      )
+    },
+    {
+      icon: (
+        <i
+          className="first fas fa-4x fa-trophy"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+        
+        </div>
+      )
+    },
+    {
+      icon: (
+        <i
+          className=" fifth fa-3x fas fa-book-open"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        ></i>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+         
+        </div>
+      )
+    }
+  ]
+];
+
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
@@ -592,6 +692,7 @@ const frequentlyAskedQuestions = [
 ];
 
 export {
+  TrackPrizes,
   TOP_SECTION,
   MIDDLE_SECTION,
   SOCIALS,
