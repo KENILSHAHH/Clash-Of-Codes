@@ -166,39 +166,49 @@ const Prizeinfo = [
     {},
 
     {
-      icon: (
-        <div className="flip-card">
+//       icon: (
+//         // <div className="flip-card">
           
-  <div className="flip-card-inner">
-    <div className="flip-card-front">
-    <img src={first} style={{height: "150px", width : "150px"}}/>
+//   {/* <div className="flip-card-inner">
+//     <div className="flip-card-front">
+//     <img src={first} style={{height: "150px", width : "150px"}}/> */}
 
-    {/* <i
-          className="first fas fa-4x fa-trophy"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        ></i> */}
-    </div>
-    <div className="flip-card-back">
-      <h1>Best Hack Built Overall</h1>
-      <p>Grand Prize of ₹40,000/-</p>
+//     <i
+//           className="first fas fa-4x fa-trophy"
+//           style={{
+//             display: 'flex',
+//             justifyContent: 'center',
+//             alignItems: 'center'
+//           }}
+//         ></i>
+//     // </div>
+//     // <div className="flip-card-back">
+//     //   <h1>Best Hack Built Overall</h1>
+//     //   <p>Grand Prize of ₹40,000/-</p>
       
-    </div>
-  </div>
-</div>
+//     // </div>
+// //   </div>
+// // </div>
+icon: (
+  <i
+    className=" second fas fa-4x fa-medal"
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}
+  ></i>
+),
         
-      ),
+      
       type: (
         <div
         style={{
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'center',fontWeight: 'bold'
         }}
-   >
+   > Best Hack built overall
       </div>
       ),
       content: (
@@ -209,7 +219,7 @@ const Prizeinfo = [
             alignItems: 'center',
             fontWeight: 'bold'
           }}
-        >
+        >  Grand Prize of ₹40,000/-
         </div>
       )
     },
