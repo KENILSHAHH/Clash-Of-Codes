@@ -429,8 +429,9 @@ const TrackPrizes = [
     //Array 2
     {
       icon: (
-        <div className="card" style={{backgroundColor :'white'}}>
-  <img src={polygon} alt="Avatar" style={{width:"100%"}}/>
+        <div  style={{borderRadius:"15px",margin:"20px"}}>
+          <img src={polygon} alt="Avatar" style={{ width: "90%", marginRight: "10px", borderRadius: "5px" }} />
+          <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
  
      <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹10,000 for the best hack built on Ethereum Or</div> 
      <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹15,000 for the best hack built on Ethereum + Polygon</div>
@@ -454,14 +455,17 @@ const TrackPrizes = [
     },
     {
       icon: (
-        <i
-          className="first fas fa-4x fa-trophy"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        ></i>
+         <div style={{ borderRadius:"15px",margin:"20px"}}>
+          <img src={filecoin} alt="Avatar" style={{ width: "100%", borderRadius: "5px" }} />
+           <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
+ 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}>₹20,000 for best use of IPFS and/or Filecoin built at Devfolio-powered community Hackathons. </div> 
+    
+     <div style={{fontSize : "20px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}>
+Microgrants up to 5000 USD, open grants up to 50,000 USD Learn more here <a href="https://github.com/filecoin-project/devgrants/blob/master/README.md"> here</a> </div>
+      
+  
+</div>
       ),
       type: (
         <div
@@ -489,14 +493,20 @@ const TrackPrizes = [
     },
     {
       icon: (
-        <i
-          className=" fifth fa-3x fas fa-book-open"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        ></i>
+         <div  style={{ borderRadius:"15px", margin:"20px"}}>
+          <img src={solana} alt="Avatar" style={{ width: "100%", borderRadius: "5px" }} />
+           <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
+ 
+     <div style={{fontSize : "20px", margin:"20px",fontWeight: 'bold'}}> Young gun - $USDC 100 for the best project beginners just starting out on Solana and/or</div> 
+          <div style={{ fontSize: "20px", margin: "20px", fontWeight: 'bold' }}>Rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or</div>
+          <div style={{fontSize : "20px", margin:"20px",fontWeight: 'bold'}}>Master glasseater - $USDC 500 for the best advanced project that is almost ready for full-time development.</div>
+     <div style={{fontSize : "15px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}> Eligibility to apply for equity free grants ranging upto $USDC 5000 if you wish to continue building post the hackathon</div>
+      
+  
+</div>
+//         // 
+//  
+// 
       ),
       type: (
         <div

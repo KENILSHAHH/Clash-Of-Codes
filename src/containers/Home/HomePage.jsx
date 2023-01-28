@@ -265,8 +265,9 @@ export default function HomePage() {
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
           {Prizeee.map(Prize3)}
-          <PrizeHeading type = "Track Prizes"/>
+          <PrizeHeading style={{margin:"250px"}} type = "Track Prizes"/>
           {TrackPrizes.map(Trackprizes)}
+        
                   
         </Row>
         
