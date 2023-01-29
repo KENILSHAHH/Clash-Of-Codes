@@ -205,7 +205,7 @@ export default function HomePage() {
       setVantaEffect(
         NET({
           el: myRef.current,
-          backgroundColor: 0x121930,
+          backgroundColor: 0x0,
           color: 0xffff,
           // points: 13.00,
           // maxDistance: 19.00,
