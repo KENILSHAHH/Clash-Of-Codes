@@ -230,7 +230,6 @@ export default function HomePage() {
       document.body.removeChild(script);
     }
 }, []);
-
   return (
     
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
@@ -240,7 +239,7 @@ export default function HomePage() {
           <Row className="Row info">
             <Col className="info-div" sm={12}>
               <Myinfo />
-             
+       
             </Col>
           </Row>
         </Container>
