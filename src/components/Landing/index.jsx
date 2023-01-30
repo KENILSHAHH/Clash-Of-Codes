@@ -59,7 +59,7 @@ const About = (props) => {
      <div href="https://clash-of-codes.devfolio.co/"
                 className="apply-button"
                 data-hackathon-slug="https://clash-of-codes.devfolio.co/"
-                data-button-theme="dark"
+                data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
 ></div>
       
