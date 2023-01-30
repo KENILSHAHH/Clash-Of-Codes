@@ -56,7 +56,7 @@ const About = (props) => {
       <MytypedComponent />
       <h3>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
       <h3>{TOP_SECTION.desc}</h3>
-     <div href="https://clash-of-codes.devfolio.co/"
+     <div crossorigin="anonymous"
                 className="apply-button"
                 data-hackathon-slug="https://clash-of-codes.devfolio.co/"
                 data-button-theme="light"
