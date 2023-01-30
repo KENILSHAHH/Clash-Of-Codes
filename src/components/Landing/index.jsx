@@ -58,7 +58,7 @@ const About = (props) => {
       <h3>{TOP_SECTION.desc}</h3>
      <div crossorigin="anonymous"
                 className="apply-button"
-                data-hackathon-slug="https://clash-of-codes.devfolio.co/"
+                data-hackathon-slug="clash-of-codes.devfolio.co/"
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
 ></div>
