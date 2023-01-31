@@ -1,4 +1,5 @@
 import { UseMedia } from 'hooks/useMedia';
+
 import React, { useEffect, useRef, useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -16,11 +17,17 @@ import Awardsz from 'components/Awardsz.js';
 import Detail from 'components/Detail.js';
 import Domains from 'components/Domains.js';
 import Foot from 'components/Foot.js';
-import { Myinfo } from 'components/Landing/index.jsx';
+
+import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
+
+import Footer from '../../components/Footer/index.jsx';
+import { Myinfo } from '../../components/Landing/index.jsx';
+
 import {
   Faqs,
   Sponsor,
-  SponsorsHead
+  SponsorsHead 
+  
 } from '../../components/Sponsors/sponsors.jsx';
 import { Member } from '../../components/Team';
 import {
@@ -32,13 +39,44 @@ import Organizer from 'components/Organizer.js';
 
 
 
+import{
+  Bronze,  Gold, Prizee,
+  Prizeee,
+  Prizeinfo, Silver, TrackPrizes
+} from '../../Module/General';
+import './about.css';
 
+import pattern from './assets/pattern4.png';
 
 const SponsorGroup = (props, index) => {
   return (
     <Row key={index}>
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+  );
+};
+const SponsorBronze = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={6} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+  );
+};
+const Sponsorgroup = (props, index) => {
+  return (
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={6} md={6}>
           {' '}
           <Sponsor srcx={s.src} />{' '}
         </Col>
@@ -78,6 +116,18 @@ const Prize3 = (props, index) => {
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
+    </Row>
+  );
+};
+const Trackprizes = (props,index) => {
+  return (
+    <Row key = {index}>
+      {props.map((s,i) =>(
+        <Col key = {i} className="" sm={12} lg={4} md={4}>
+          <FirstPrize icon={s.icon} type={s.type} content = {s.content} />
+        </Col>
+      )
+      )}
     </Row>
   );
 };
@@ -177,7 +227,7 @@ export default function HomePage() {
       setVantaEffect(
         NET({
           el: myRef.current,
-          backgroundColor: 0x121930,
+          backgroundColor: 0x0,
           color: 0xffff,
           // points: 13.00,
           // maxDistance: 19.00,
@@ -202,11 +252,11 @@ export default function HomePage() {
       document.body.removeChild(script);
     }
 }, []);
-
   return (
     <div className="Whole_div" style={{backgroundColor:"black"}}>
       <div className="color_sectiom" id="home" ref={myRef}>
         <Container fluid>
+         
           <Row className="Row info">
             <Col className="info-div" sm={12}>
               <Myinfo/>
@@ -215,6 +265,7 @@ export default function HomePage() {
             </Col>
           </Row>
         </Container>
+        
       </div>
       <Container fluid>
       <Detail/>
@@ -255,8 +306,15 @@ export default function HomePage() {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
+         {/* <h1>Title sponsors</h1> */}
+         <h1>Gold Sponsors</h1>
+          {Gold.map(Sponsorgroup)}
+          <h1>Silver Sponsors</h1>
+          {Silver.map(SponsorGroup)}
+        
+          <h1>Bronze Sponsor</h1>
+          {Bronze.map(SponsorBronze)}
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 

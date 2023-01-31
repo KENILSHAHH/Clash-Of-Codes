@@ -1,30 +1,19 @@
 import hackathonLogo from './Assets/hackathonLogo.png';
-
+import wolfram from './Assets/sponsorsLogos/wolfram.png';
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
-
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
 import devfolio from './Assets/sponsorsLogos/devfolio.png';
+import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import polygon from './Assets/sponsorsLogos/polygon.png';
 import replit from './Assets/sponsorsLogos/replit.png';
 import solana from './Assets/sponsorsLogos/solana.png';
-import filecoin from './Assets/sponsorsLogos/filecoin.png';
+import taskade from './Assets/sponsorsLogos/taskade.png';
+import lyin from './Assets/teami/lyin.jpg';
+import './style.css';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -176,27 +165,50 @@ const Prizeinfo = [
     {},
 
     {
-      icon: (
-        <i
-          className="first fas fa-4x fa-trophy"
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        ></i>
-      ),
+//       icon: (
+//         // <div className="flip-card">
+          
+//   {/* <div className="flip-card-inner">
+//     <div className="flip-card-front">
+//     <img src={first} style={{height: "150px", width : "150px"}}/> */}
+
+//     <i
+//           className="first fas fa-4x fa-trophy"
+//           style={{
+//             display: 'flex',
+//             justifyContent: 'center',
+//             alignItems: 'center'
+//           }}
+//         ></i>
+//     // </div>
+//     // <div className="flip-card-back">
+//     //   <h1>Best Hack Built Overall</h1>
+//     //   <p>Grand Prize of ₹40,000/-</p>
+      
+//     // </div>
+// //   </div>
+// // </div>
+icon: (
+  <i
+    className=" second fas fa-4x fa-medal"
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}
+  ></i>
+),
+        
+      
       type: (
         <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        >
-          {' '}
-          Best Hack Built overall
-        </div>
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',fontWeight: 'bold'
+        }}
+   > Best Hack built overall
+      </div>
       ),
       content: (
         <div
@@ -206,9 +218,7 @@ const Prizeinfo = [
             alignItems: 'center',
             fontWeight: 'bold'
           }}
-        >
-          {' '}
-          Grand Prize of ₹40,000/-
+        >  Grand Prize of ₹40,000/-
         </div>
       )
     },
@@ -414,6 +424,117 @@ const Prizeee = [
   ]
 ];
 
+const TrackPrizes = [
+  [
+    //Array 2
+    {
+      icon: (
+        <div  style={{borderRadius:"15px",margin:"20px"}}>
+          <img src={polygon} alt="Avatar" style={{ width: "90%", marginRight: "10px", borderRadius: "5px" }} />
+          <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
+ 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹10,000 for the best hack built on Ethereum Or</div> 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}> ₹15,000 for the best hack built on Ethereum + Polygon</div>
+     <div style={{fontSize : "20px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}> Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! Learn more about the Polygon Track Prize <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"> here</a> </div>
+      
+  
+</div>
+      
+      ),
+      type: (
+        <div
+          
+        >
+         
+        </div>
+       
+      ),
+      content: (
+        <></>
+      )
+    },
+    {
+      icon: (
+         <div style={{ borderRadius:"15px",margin:"20px"}}>
+          <img src={filecoin} alt="Avatar" style={{ width: "100%", borderRadius: "5px" }} />
+           <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
+ 
+     <div style={{fontSize : "25px", margin:"20px",fontWeight: 'bold'}}>₹20,000 for best use of IPFS and/or Filecoin built at Devfolio-powered community Hackathons. </div> 
+    
+     <div style={{fontSize : "20px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}>
+Microgrants up to 5000 USD, open grants up to 50,000 USD Learn more here <a href="https://github.com/filecoin-project/devgrants/blob/master/README.md"> here</a> </div>
+      
+  
+</div>
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+        
+        </div>
+      )
+    },
+    {
+      icon: (
+         <div  style={{ borderRadius:"15px", margin:"20px"}}>
+          <img src={solana} alt="Avatar" style={{ width: "100%", borderRadius: "5px" }} />
+           <hr style={{height:"2px",backgroundColor:"black" , color :"black"}}/>
+ 
+     <div style={{fontSize : "20px", margin:"20px",fontWeight: 'bold'}}> Young gun - $USDC 100 for the best project beginners just starting out on Solana and/or</div> 
+          <div style={{ fontSize: "20px", margin: "20px", fontWeight: 'bold' }}>Rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or</div>
+          <div style={{fontSize : "20px", margin:"20px",fontWeight: 'bold'}}>Master glasseater - $USDC 500 for the best advanced project that is almost ready for full-time development.</div>
+     <div style={{fontSize : "15px", margin:"20px", paddingBottom:"20px",fontWeight: 'bold'}}> Eligibility to apply for equity free grants ranging upto $USDC 5000 if you wish to continue building post the hackathon</div>
+      
+  
+</div>
+//         // 
+//  
+// 
+      ),
+      type: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          
+        </div>
+      ),
+      content: (
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            fontWeight: 'bold'
+          }}
+        >
+         
+        </div>
+      )
+    }
+  ]
+];
+
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
  * create as many arrays you want all team members will be rendered
@@ -514,10 +635,19 @@ const JudgesInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
-  [{src: devfolio}, {src:filecoin}, {src: polygon}], //Array 1
-  [{src: solana}, {src: replit}, {src: taskade}] //Array 4
+const Silver = [
+   //Array 1
+  [{src: solana}, {src: replit}, {src:filecoin} ] 
+  
+  //Array 4
 ];
+const Gold = [
+  [{src: devfolio}, {src: polygon}]
+  //Array 4
+];
+const Bronze = [
+[{src : taskade} , {src : wolfram}]
+]
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
@@ -538,24 +668,24 @@ const frequentlyAskedQuestions = [
       {
         label: 'When will the applications close?',
         content:
-          'The application period will close on 25th February 2022 at 11:59 PM IST. We evaluate applications on a rolling basis and will notify acceptance via email.'
+          'The application period will close on 23rd February 2023 at 11:59 PM IST. We evaluate applications on a rolling basis and will notify acceptance via email.'
       },
       {
         label: 'Is it free of cost?',
         content:
-          'Absolutely zero. Participation in ClashOfCodes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding'
+          'Participation in Clash-Of-Codes is entirely free thanks to our sponsors. We will provide weekend worth of meals, drinks, snacks and a place where in you can CLASH if you need a break from coding'
       }
     ],
     [
       {
         label: 'How do you evaluate the applications?',
         content:
-          'Folks who are passionate enough to work on crazy world-changing ideas.We can get to know you better from your past projects, open source contributions, GitHub/Devfolio profile, and participation in hackathons.'
+          'We can get to know more about you from your past projects, open source contributions, GitHub/Devfolio profile, and participation in hackathons.'
       },
       {
         label: 'What could be the size of each team?',
         content:
-          'A particular team can contain members from 2-4. If you are looking for team members you can join our discord, we will be having team formation at our discord'
+          'A particular team can contain members from 2-4. If you are looking for team members you can join Clash-Of-Codes discord server'
       },
       {
         label: 'Do you provide travel reimbursement to hackers?',
@@ -565,13 +695,14 @@ const frequentlyAskedQuestions = [
       {
         label: 'Did we miss something?',
         content:
-          'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, One of our brains will reach out to you as soon as possible.'
+          'Write us at clashofcodeshackathon@gmail.com or tweet us your question @Clash_of_Codes, Our team will reach out to you as soon as possible.'
       }
     ]
   ]
 ];
 
 export {
+  TrackPrizes,
   TOP_SECTION,
   MIDDLE_SECTION,
   SOCIALS,
@@ -579,7 +710,9 @@ export {
   Prizeinfo,
   Prizee,
   Prizeee,
-  sponsorLogos,
+  Silver,
+  Gold,
+  Bronze,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,

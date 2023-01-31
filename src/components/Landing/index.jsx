@@ -1,9 +1,6 @@
-import './style.css';
-import BIRDS from 'vanta/dist/vanta.birds.min'
-import React, { useState, useEffect, useRef } from 'react'
-import NET from 'vanta/dist/vanta.net.min'
-import {SOCIALS, TOP_SECTION} from '../../Module/General';
+import { TOP_SECTION } from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
+import './style.css';
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 
@@ -59,6 +56,12 @@ const About = (props) => {
       <MytypedComponent />
       <h3>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
       <h3>{TOP_SECTION.desc}</h3>
+     <div crossorigin="anonymous"
+                className="apply-button"
+                data-hackathon-slug="clash-of-codes"
+                data-button-theme="light"
+                style={{ height: "44px", width: "312px" }}
+></div>
       
     </div>
   );

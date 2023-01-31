@@ -11,10 +11,21 @@
 }
 .color_sectiom {
   height: 750px;
-  background-color: #121930;
+  background-color:white;
   
   padding-bottom: 5rem;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
 .container-fluid {
   max-width: 1500px;
   margin-left: auto;
@@ -61,7 +72,7 @@ h1 {
   margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #f3effe;
+  background-color: 0xff;
 }
 
 .Prizes{
@@ -72,13 +83,16 @@ h1 {
   padding: 17vh 18vh 0 18vh;
   margin-top: -10vh;
   margin-top: 0vh;
+  
 }
 .faqsSection {
   text-align: center;
   margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
+  
 }
+
 
 @media (max-width: 570px) {
   .mediaInfo {
@@ -103,7 +117,7 @@ h1 {
   }
   .sponsorSection {
     padding: 0;
-    margin: 0;
+    margin: 100px;
     margin: 12rem auto;
   }
   .logoSection {
