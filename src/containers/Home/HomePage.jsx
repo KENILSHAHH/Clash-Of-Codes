@@ -1,35 +1,38 @@
-import {UseMedia} from 'hooks/useMedia';
-import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
-import BIRDS from 'vanta/dist/vanta.birds.min';
-import React, {useState, useEffect, useRef} from 'react';
-import NET from 'vanta/dist/vanta.net.min';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {HashLink as Link} from 'react-router-hash-link';
-import styled from 'styled-components';
+import { UseMedia } from 'hooks/useMedia';
+import React, { useEffect, useRef, useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
-import Footer from '../../components/Footer/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
-import Media from '../../components/Socials/index.jsx';
+import styled from 'styled-components';
+import NET from 'vanta/dist/vanta.net.min';
+import { Accordion } from '../../components/Accordian/index.jsx';
+import { FirstPrize } from '../../components/Prizes/index.jsx';
+import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
+
+
+
+
+import Awardsz from 'components/Awardsz.js';
+import Detail from 'components/Detail.js';
+import Domains from 'components/Domains.js';
+import Foot from 'components/Foot.js';
+import { Myinfo } from 'components/Landing/index.jsx';
 import {
   Faqs,
   Sponsor,
   SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
-import {Member} from '../../components/Team';
+import { Member } from '../../components/Team';
 import {
-  frequentlyAskedQuestions,
-  Prizee,
-  Prizeee,
-  Prizeinfo,
-  sponsorLogos
+  frequentlyAskedQuestions, sponsorLogos
 } from '../../Module/General';
 import './about.css';
-import pattern from './assets/pattern4.png';
+import Timeline from 'components/Timeline.js';
+import Organizer from 'components/Organizer.js';
+
+
+
+
 
 const SponsorGroup = (props, index) => {
   return (
@@ -201,37 +204,46 @@ export default function HomePage() {
 }, []);
 
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div className="Whole_div" style={{backgroundColor:"black"}}>
       <div className="color_sectiom" id="home" ref={myRef}>
         <Container fluid>
           <Row className="Row info">
             <Col className="info-div" sm={12}>
-              <Myinfo />
+              <Myinfo/>
+             
              
             </Col>
           </Row>
         </Container>
       </div>
       <Container fluid>
+      <Detail/>
         {/* Logo section  */}
-        <Row className=" logoSection">
+        {/* <Row className=" logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
           <Col className="info-div" sm={12} lg={4} md={4}>
             <Logo />
           </Col>
-        </Row>
-
+        </Row> */}
+ 
         {/* ********Frequently asked Questions here ***** */}
+  {/* domains here */}
+ 
+  <Domains/>
+  <Awardsz/>
+  {/* <Timeline/> */}
+
+{/* domain ends here */}
 
         {/* ********Prizes here ***** */}
-        <Row className="prizesection" id="prizes">
+        {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
           {Prizeee.map(Prize3)}
-        </Row>
+        </Row> */}
         {/* ********Prizes ending here ***** */}
 
         {/* <Row className="prizesection non-coding">
@@ -262,7 +274,8 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <Faqs />
           {/* ********Judges here ***** */}
-          <div className="Myfaqs" id="faq">
+          <div className="container text-center bg-dark p-5" style={{backgroundColor:"dark"}}>
+            <div> <h1 style={{color:"white",marginBottom:"30px"}}> FAQ's</h1></div>
             {frequentlyAskedQuestions.map(FrequentlyAsked)}
             {/* ********Frequently asked Questions ending here ***** */}
           </div>
@@ -270,7 +283,10 @@ export default function HomePage() {
 
         {/* ********Team ending here ***** */}
       </Container>
-      <Footer />
+
+<Organizer/>
+<Foot/>
+
     </div>
   );
 }
