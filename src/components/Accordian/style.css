@@ -5,11 +5,7 @@
   position: relative;
 }
 .panel {
-<<<<<<< HEAD
   background-color: #43e2e0;
-=======
-  background-color: lightblue;
->>>>>>> ad1dd29d7cf2637e7c419a8fd46adc035c1ec926
   border-radius: 12px;
 margin-top: 10px;
 }
