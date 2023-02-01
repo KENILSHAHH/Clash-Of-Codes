@@ -42,7 +42,8 @@ h1 {
 
 .info {
   margin-top: 20vh;
-  color: white;
+  color: rgb(255, 255, 255);
+ 
 }
 
 .d-image img {

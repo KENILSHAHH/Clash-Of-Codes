@@ -55,8 +55,8 @@ const About = (props) => {
       <h2>{TOP_SECTION.TITLE}</h2>
       <MytypedComponent />
       <h3>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
-      <h3>{TOP_SECTION.desc}</h3>
-     <div crossorigin="anonymous"
+      <h3 style={{marginBottom:"35px"}}>{TOP_SECTION.desc}</h3>
+     <div 
                 className="apply-button"
                 data-hackathon-slug="clash-of-codes"
                 data-button-theme="light"

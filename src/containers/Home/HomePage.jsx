@@ -307,12 +307,12 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
          {/* <h1>Title sponsors</h1> */}
-         <h1>Gold Sponsors</h1>
+         <h1 style={{color:"DFB722"}}>Gold Sponsors</h1>
           {Gold.map(Sponsorgroup)}
-          <h1>Silver Sponsors</h1>
+          <h1 style={{color:"BBC2CC"}}>Silver Sponsors</h1>
           {Silver.map(SponsorGroup)}
         
-          <h1>Bronze Sponsor</h1>
+          <h1 style={{color:"CD7F32"}}>Bronze Sponsor</h1>
           {Bronze.map(SponsorBronze)}
           <SponsorUS />
         </Row>
