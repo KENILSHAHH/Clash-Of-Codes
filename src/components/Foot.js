@@ -1,129 +1,83 @@
+import React from 'react'
 
 function Foot() {
   return (
-    <div style={{color:"00ffff",marginTop:"100px"}}>
-  
-<hr></hr>
+    <div style={{color: '00ffff', marginTop: '100px'}}>
+      <hr></hr>
 
-  <section className="d-flex justify-content-center justify-content-lg-between p-4 " style={{color:"00ffff"}}>
+      <section className="">
+        <div className="container text-center text-md-start mt-5">
+          <div className="row mt-3">
+            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+              <h2 className="text-uppercase fw-bold mb-4">
+                <i className="fas fa-map-marker-alt me-3"></i>Pin location
+              </h2>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.0060393298677!2d72.83500021458778!3d19.10739098706995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c676018b43%3A0x75f29a4205098f99!2sSVKM&#39;s%20Dwarkadas%20J.%20Sanghvi%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1675255122738!5m2!1sen!2sin"
+                style={{
+                  width: '300',
+                  height: '200',
+                  border: '0',
+                  allowFullScreen: '',
+                  loading: 'lazy',
+                  referrerPolicy: 'no-referrer-when-downgrade'
+                }}
+              ></iframe>
+            </div>
 
-     <div className="me-5 d-none d-lg-block">
-  <h2> <span>Get connected with us on social networks:</span></h2>
- </div>
+            <div className="col-md-3 col-lg-6 col-xl-6 mx-auto mb-4">
+              <h2 className="text-uppercase fw-bold mb-4">Useful links</h2>
+              <p>
+                <a href="#about" className="text-reset">
+                  About Us
+                </a>
+              </p>
+              <p>
+                <a href="#prizes" className="text-reset">
+                  Prizes
+                </a>
+              </p>
+              <p>
+                <a href="#faqs" className="text-reset">
+                  Faq's
+                </a>
+              </p>
+              <p>
+                <a href="#Sponsors" className="text-reset">
+                  Sponsors
+                </a>
+              </p>
+            </div>
 
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h2 className="text-uppercase fw-bold mb-4">Contact</h2>
 
-
-    <div >
-      <a href="" className="me-4 text-reset" style={{height:"30px"}}>
-        <i className="fab fa-facebook-f" ></i>
-      </a>
-      <a href="" className="me-4 text-reset">
-        <i className="fab fa-twitter"></i>
-      </a>
-      <a href="" className="me-4 text-reset">
-        <i className="fab fa-google"></i>
-      </a>
-      <a href="" className="me-4 text-reset">
-        <i className="fab fa-instagram"></i>
-      </a>
-      <a href="" className="me-4 text-reset">
-        <i className="fab fa-linkedin"></i>
-      </a>
-      <a href="" className="me-4 text-reset">
-        <i className="fab fa-github"></i>
-      </a>
-    </div>
-
-  </section>
-
-
-
-  <section className="">
-    <div className="container text-center text-md-start mt-5">
-
-      <div className="row mt-3">
- 
-        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-          <h6 className="text-uppercase fw-bold mb-4">
-            <i className="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
+              <p>
+                <i className="fas fa-envelope me-3"></i>
+                clashofcodeshackathon@gmail.com
+              </p>
+              <p>
+                <i className="fas fa-phone "></i> Kenil Shah - +91 70218 83946
+              </p>
+              <p>
+                <i className="fas fa-phone"></i> Sharmila Choudhary- +91 93722 94734
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
 
-
-
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-          <h6 className="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" className="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Laravel</a>
-          </p>
-        </div>
-   
-
-     
-        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-  
-          <h6 className="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" className="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Help</a>
-          </p>
-        </div>
-    
-
-      
-        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-     
-          <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i className="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-  
+      <div className="text-center p-4" style={{backgroundColor: 'black'}}>
+        <h2>
+          {' '}
+          ©2023 Copyright:
+          <a className="text-reset fw-bold" href="https:clash-of-codes.netlify.app">
+             Clash-Of-Codes
+          </a>
+        </h2>
       </div>
- 
     </div>
-  </section>
-
-
-  <div className="text-center p-4" style={{backgroundColor:"black"}}>
-   <h2> © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">Clash-Of-Codes</a></h2>
-  </div>
-
-
-    </div>
-  )
+  );
 }
 
 export default Foot

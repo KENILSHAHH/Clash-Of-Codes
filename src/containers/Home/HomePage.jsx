@@ -47,6 +47,7 @@ import{
 import './about.css';
 
 import pattern from './assets/pattern4.png';
+import TypedComponent from 'components/Typed/some.js';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -282,7 +283,8 @@ export default function HomePage() {
         {/* ********Frequently asked Questions here ***** */}
   {/* domains here */}
  
-  <Domains/>
+        <Domains />
+        
   <Awardsz/>
   {/* <Timeline/> */}
 
