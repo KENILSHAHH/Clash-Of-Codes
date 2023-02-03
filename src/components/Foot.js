@@ -2,8 +2,8 @@ import React from 'react'
 
 function Foot() {
   return (
-    <div style={{borderColor: 'white', color: '00ffff', marginTop: '100px'}}>
-      <hr></hr>
+    <div style={{borderColor: 'white', color: 'white'}}>
+      
 
       <section className="">
         <div className="container text-center text-md-start mt-5">

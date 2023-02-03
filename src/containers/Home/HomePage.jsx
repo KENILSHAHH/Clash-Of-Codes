@@ -18,7 +18,6 @@ import Detail from 'components/Detail.js';
 import Domains from 'components/Domains.js';
 import Foot from 'components/Foot.js';
 
-import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
 
 import Footer from '../../components/Footer/index.jsx';
 import { Myinfo } from '../../components/Landing/index.jsx';
@@ -26,29 +25,21 @@ import { Myinfo } from '../../components/Landing/index.jsx';
 import {
   Faqs,
   Sponsor,
-  SponsorsHead 
-  
+  SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
 import { Member } from '../../components/Team';
 import {
-  frequentlyAskedQuestions, sponsorLogos
-} from '../../Module/General';
-import './about.css';
-import Timeline from 'components/Timeline.js';
-import Organizer from 'components/Organizer.js';
-
-
-
-import{
-  Bronze,  Gold, Prizee,
-  Prizeee,
-  Prizeinfo, Silver, TrackPrizes
+  frequentlyAskedQuestions
 } from '../../Module/General';
 import './about.css';
 
-import pattern from './assets/pattern4.png';
-import TypedComponent from 'components/Typed/some.js';
-import Sharmilaname from 'components/Footer/Sharmilaname.js';
+
+
+import {
+  Bronze, Gold, Silver
+} from '../../Module/General';
+import './about.css';
+
 
 const SponsorGroup = (props, index) => {
   return (
@@ -344,7 +335,10 @@ export default function HomePage() {
         {/* ********Team ending here ***** */}
       </Container>
 
-      <Organizer />
+      {/* <Organizer />
+      <SocialLinks/> */}
+      <hr style={{borderWidth:"5px",color:"white"}} />
+      {/* <h1>SOcial Media Links</h1> */}
       <Footer/>
       <Foot />
    

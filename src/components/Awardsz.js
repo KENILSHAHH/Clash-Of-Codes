@@ -8,9 +8,9 @@ function Awardsz() {
      const glitch = useGlitch();
   return (
     <>
-      <div className="container text-center  p-5 ">
+      <div className="container text-center p-5 ">
         {' '}
-        <div>
+        <div >
           <h1
             style={{
               color: 'white',
@@ -148,6 +148,70 @@ function Awardsz() {
               {' '}
               Best Hack in the Domain of Blockchain development{' '}
             </Glitch>{' '}
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
+            >
+              {' '}
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹10,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    1st Prize
+                  </p>
+                </Glitch>
+              </div>
+            </div>
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
+            >
+              {' '}
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹5,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    2nd Prize
+                  </p>
+                </Glitch>
+              </div>
+            </div>
           </div>
           <div className="col-sm-6 col-md-4 p-5">
             {' '}
@@ -155,6 +219,70 @@ function Awardsz() {
               {' '}
               Best Hack in the Domain of Web/App Development{' '}
             </Glitch>{' '}
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
+            >
+              {' '}
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹10,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    1st Prize
+                  </p>
+                </Glitch>
+              </div>
+            </div>
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
+            >
+              {' '}
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹5,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    2nd Prize
+                  </p>
+                </Glitch>
+              </div>
+            </div>
           </div>
           <div className="col-sm-6 col-md-4 p-5">
             {' '}
@@ -162,205 +290,73 @@ function Awardsz() {
               {' '}
               Best Hack in the Domain of Web/App Development{' '}
             </Glitch>{' '}
-          </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
             >
               {' '}
-              <Glitch color="blue">₹10,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  1st Prize
-                </p>
-              </Glitch>
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹10,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    1st Prize
+                  </p>
+                </Glitch>
+              </div>
             </div>
-          </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
+            <div
+              style={{borderRadius: '30px', borderColor: '00ffff'}}
+              // style={{
+              // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+              // }}
             >
               {' '}
-              <Glitch color="yellow">₹10,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  1st Prize
-                </p>
-              </Glitch>
+              <h2
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+              >
+                {' '}
+                <Glitch color="blue">₹5,000/-</Glitch>
+              </h2>
+              <div
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }}
+                className="card-body"
+              >
+                <Glitch color="white">
+                  <p style={{fontSize: '25px'}} className="card-text">
+                    2nd Prize
+                  </p>
+                </Glitch>
+              </div>
             </div>
           </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-            >
-              {' '}
-              <Glitch color="#00ffff">₹10,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  1st Prize
-                </p>
-              </Glitch>
-            </div>
-          </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-            >
-              {' '}
-              <Glitch color="blue">₹5,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  2nd Prize
-                </p>
-              </Glitch>
-            </div>
-          </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-            >
-              {' '}
-              <Glitch color="yellow">₹5,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  2nd Prize
-                </p>
-              </Glitch>
-            </div>
-          </div>
-          <div
-            className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
-            // style={{
-            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
-            // }}
-          >
-            {' '}
-            <h2
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-            >
-              {' '}
-              <Glitch color="#00ffff">₹5,000/-</Glitch>
-            </h2>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center'
-              }}
-              className="card-body"
-            >
-              <Glitch color="white">
-                <p style={{fontSize: '25px'}} className="card-text">
-                  2nd Prize
-                </p>
-              </Glitch>
-            </div>
-          </div>
+
+          
           <div>
             <h1
               style={{
@@ -370,7 +366,7 @@ function Awardsz() {
                 alignItems: 'center'
               }}
             >
-              <Glitch>Track Prizes</Glitch>{' '}
+              <Glitch color="red">Track Prizes</Glitch>{' '}
             </h1>
           </div>
           <div
@@ -474,19 +470,22 @@ function Awardsz() {
             >
               <Glitch color="white">
                 <p style={{fontSize: '25px'}} className="card-text">
-                  <img src={solana} style={{width:"300px", marginBottom: '30px'}} alt="" />
+                  <img
+                    src={solana}
+                    style={{width: '300px', marginBottom: '30px'}}
+                    alt=""
+                  />
                   <p>
-                    &#x2022;Young gun - $USDC 100 for the best project beginners
-                    just starting out on Solana and/or
+                    &#x2022;Young gun - $USDC 100 for the best beginner project 
                   </p>
                   <p>
                     &#x2022; Rising teknoking - $USDC 250 for the best project
-                    that goes into depth, demonstrating higher-order code and/or
+                    that goes into depth
                   </p>
                   <p>
                     {' '}
                     &#x2022;Master glasseater - $USDC 500 for the best advanced
-                    project that is almost ready for full-time development.{' '}
+                    project {' '}
                   </p>
                   <p>
                     Eligibility to apply for equity free grants ranging upto
