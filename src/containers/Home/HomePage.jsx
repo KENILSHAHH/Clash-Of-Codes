@@ -48,6 +48,7 @@ import './about.css';
 
 import pattern from './assets/pattern4.png';
 import TypedComponent from 'components/Typed/some.js';
+import Sharmilaname from 'components/Footer/Sharmilaname.js';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -148,10 +149,10 @@ const TeamMembers = (props, index) => {
 
 const FrequentlyAsked = (props, index) => {
   return (
-    <Row key={index} className="sf">
+    <Row key={index} >
       {props.map((s, i) => (
-        <Col key={i} sm={12} lg={6} md={6}>
-          <Accordion panels={s} />
+        <Col  key={i} sm={12} lg={6} md={6}>
+          <Accordion style={{color:"white"}} panels={s} />
         </Col>
       ))}
     </Row>
@@ -284,8 +285,7 @@ export default function HomePage() {
   {/* domains here */}
  
         <Domains />
-        
-  <Awardsz/>
+<Awardsz/>
   {/* <Timeline/> */}
 
 {/* domain ends here */}
@@ -334,7 +334,7 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <Faqs />
           {/* ********Judges here ***** */}
-          <div className="container text-center bg-dark p-5" style={{backgroundColor:"dark"}}>
+          <div className="container text-center p-5 " style={{color:"white"}} >
             <div> <h1 style={{color:"white",marginBottom:"30px"}}> FAQ's</h1></div>
             {frequentlyAskedQuestions.map(FrequentlyAsked)}
             {/* ********Frequently asked Questions ending here ***** */}
@@ -344,8 +344,10 @@ export default function HomePage() {
         {/* ********Team ending here ***** */}
       </Container>
 
-<Organizer/>
-<Foot/>
+      <Organizer />
+      <Footer/>
+      <Foot />
+      <Sharmilaname/>
 
     </div>
   );

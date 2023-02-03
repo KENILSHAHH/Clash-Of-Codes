@@ -1,8 +1,12 @@
 import Typewriter from 'typewriter-effect';
 import bg from './bg.png';
+import Glitch from 'react-glitch-text';
 function Detail() {
   return (
-    <div className="container text-center bg-dark my-5 p-5">
+    <div
+      className="border-white container text-center my-5 p-5 "
+      style={{borderRadius: '75px'}}
+    >
       <h1 style={{color: 'white', marginTop: '30px', marginBottom: '50px'}}>
         About Us
       </h1>
@@ -40,12 +44,13 @@ function Detail() {
 
             <div>
               <p className="py-3">
-                <i className="ri-map-pin-2-fill about__details-icon"></i>
-                Dwarkadas J Sanghvi College of Engineering.
+                <i class="fa-regular fa-location-crosshairs"></i>
+                  Dwarkadas J Sanghvi College of Engineering.
+              
               </p>
-              <p>
+              {/* <p>
                 <i className="ri-timer-fill about__details-icon"></i>
-              </p>
+              </p> */}
               <p>
                 <i className="ri-group-fill about__details-icon"></i>
                 2-4 members per team

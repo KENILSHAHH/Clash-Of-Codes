@@ -1,13 +1,13 @@
-import {useEffect, useRef, useState} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {HashLink as Link} from 'react-router-hash-link';
+import { useEffect, useRef, useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import HomePage from '../Home/HomePage';
 import logoClose from './assets/ham-c.svg';
 import hamLogo from './assets/ham.svg';
 import './styles.scss';
 
-import {MdxContent} from '../Mdx';
+import { MdxContent } from '../Mdx';
 
 const NAVIGATION_OFFSET = 66;
 
@@ -112,7 +112,7 @@ const NAVBAR = ({}) => {
               </li>
               <li>
                 <Link to={`#prizes`}>
-                  <span className="links">Prizes</span>{' '}
+                  <span className="links" style={{fontFamily:"RubikGlitch"}}>Prizes</span>{' '}
                 </Link>
               </li>
               <li>

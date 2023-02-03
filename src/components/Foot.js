@@ -2,7 +2,7 @@ import React from 'react'
 
 function Foot() {
   return (
-    <div style={{color: '00ffff', marginTop: '100px'}}>
+    <div style={{borderColor:"white", color: '00ffff', marginTop: '100px'}}>
       <hr></hr>
 
       <section className="">
