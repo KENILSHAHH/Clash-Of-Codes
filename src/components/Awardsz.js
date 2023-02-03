@@ -78,7 +78,7 @@ function Awardsz() {
               }}
             >
               {' '}
-              <Glitch color="blue">₹20,000/-</Glitch>
+              <Glitch color="yellow">₹20,000/-</Glitch>
             </h2>
             <div
               style={{
@@ -112,7 +112,7 @@ function Awardsz() {
               }}
             >
               {' '}
-              <Glitch color="blue">₹10,000/-</Glitch>
+              <Glitch color="#00ffff">₹10,000/-</Glitch>
             </h2>
             <div
               style={{
@@ -129,6 +129,76 @@ function Awardsz() {
               </Glitch>
             </div>
           </div>
+
+          <div>
+            <h1
+              style={{
+                color: 'white',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+            >
+              <Glitch>Domain Prizes</Glitch>{' '}
+            </h1>
+          </div>
+
+          <div className="col-sm-6 col-md-4 p-5">
+            {' '}
+            <Glitch fontSize="23px" color="white">
+              {' '}
+              Best Hack in the Domain of Blockchain development{' '}
+            </Glitch>{' '}
+          </div>
+          <div className="col-sm-6 col-md-4 p-5">
+            {' '}
+            <Glitch fontSize="25px" color="white">
+              {' '}
+              Best Hack in the Domain of Web/App Development{' '}
+            </Glitch>{' '}
+          </div>
+
+          <div className="col-sm-6 col-md-4 p-5">
+            {' '}
+            <Glitch fontSize="25px" color="white">
+              {' '}
+              Best Hack in the Domain of Web/App Development{' '}
+            </Glitch>{' '}
+          </div>
+          {/* 
+          <div
+            className="col-sm-6 col-md-4 p-5"
+            style={{borderRadius: '30px', borderColor: '00ffff'}}
+            // style={{
+            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+            // }}
+          >
+            {' '}
+            <h2
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+            >
+              {' '}
+              <Glitch color="blue">₹40,000/-</Glitch>
+            </h2>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+              className="card-body"
+            >
+              <Glitch color="white">
+                <p style={{fontSize: '25px'}} className="card-text">
+                  1st Prize
+                </p>
+              </Glitch>
+            </div>
+          </div> */}
 
           {/* <div>
             <h1

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Foot() {
   return (
-    <div style={{borderColor:"white", color: '00ffff', marginTop: '100px'}}>
+    <div style={{borderColor: 'white', color: '00ffff', marginTop: '100px'}}>
       <hr></hr>
 
       <section className="">
@@ -60,7 +60,8 @@ function Foot() {
                 <i className="fas fa-phone "></i> Kenil Shah - +91 70218 83946
               </p>
               <p>
-                <i className="fas fa-phone"></i> Sharmila Choudhary- +91 93722 94734
+                <i className="fas fa-phone"></i> Sharmila Choudhary-
+                +91 93722 94734
               </p>
             </div>
           </div>
@@ -70,9 +71,12 @@ function Foot() {
       <div className="text-center p-4" style={{backgroundColor: 'black'}}>
         <h2>
           {' '}
-          ©2023 Copyright:
-          <a className="text-reset fw-bold" href="https:clash-of-codes.netlify.app">
-             Clash-Of-Codes
+          ©2023 Copyright&nbsp; : &nbsp;
+          <a
+            className="text-reset fw-bold"
+            href="https:clash-of-codes.netlify.app"
+          >
+            Clash Of Codes
           </a>
         </h2>
       </div>

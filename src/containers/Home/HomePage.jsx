@@ -347,7 +347,7 @@ export default function HomePage() {
       <Organizer />
       <Footer/>
       <Foot />
-      <Sharmilaname/>
+   
 
     </div>
   );
