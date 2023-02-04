@@ -54,15 +54,18 @@ const About = (props) => {
     <div className="AboutMe" >
       <h2>{TOP_SECTION.TITLE}</h2>
       <MytypedComponent />
-      <h3 style={{ marginBottom:"20px" ,fontSize:"30px"}}>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
-      <h3 style={{fontSize:"30px",marginBottom:"35px"}}>{TOP_SECTION.desc}</h3>
-     <div 
+       <h3>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
+      <h3 style={{marginBottom:"40px"}}>{TOP_SECTION.desc}</h3>
+     <div crossorigin="anonymous"
                 className="apply-button"
                 data-hackathon-slug="clash-of-codes"
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
 ></div>
       
+        {/* <h3 style={{ marginBottom:"20px" ,fontSize:"30px"}}>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
+      <h3 style={{fontSize:"30px",marginBottom:"35px"}}>{TOP_SECTION.desc}</h3>
+     <div  */}
     </div>
   );
 };
