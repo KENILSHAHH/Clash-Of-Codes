@@ -4,7 +4,7 @@ import { useGlitch } from 'react-powerglitch';
 import polygon from '../Module/Assets/sponsorsLogos/polygon.png'
 import filecoin from '../Module/Assets/sponsorsLogos/filecoin.png'
 import solana from '../Module/Assets/sponsorsLogos/solana.png'
-function Awardsz() {
+function PrizeHeading() {
      const glitch = useGlitch();
   return (
     <>
@@ -288,7 +288,7 @@ function Awardsz() {
             {' '}
             <Glitch fontSize="25px" color="white">
               {' '}
-              Best Hack in the Domain of Web/App Development{' '}
+              Best Hack in the Domain of AI/ML{' '}
             </Glitch>{' '}
             <div
               style={{borderRadius: '30px', borderColor: '00ffff'}}
@@ -702,4 +702,4 @@ function Awardsz() {
   );
 }
 
-export default Awardsz;
+export default PrizeHeading;

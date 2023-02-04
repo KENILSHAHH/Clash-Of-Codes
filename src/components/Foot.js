@@ -38,12 +38,12 @@ function Foot() {
                 </a>
               </p>
               <p>
-                <a href="#faqs" className="text-reset">
+                <a href="#faq" className="text-reset">
                   Faq's
                 </a>
               </p>
               <p>
-                <a href="#Sponsors" className="text-reset">
+                <a href="#sponsors" className="text-reset">
                   Sponsors
                 </a>
               </p>

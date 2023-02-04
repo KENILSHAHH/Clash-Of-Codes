@@ -99,14 +99,13 @@ const NAVBAR = ({}) => {
             <ul>
             <li>
                 <Link to={`#home`}>
-                  
-                    <img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" width="40" height="40" />
+<img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" width="40" height="40" />
                   
                 </Link>
                 </li>
             
               <li>
-                <Link to={`#faq`}>
+                <Link to={`#faqs`}>
                   <span className="links">FAQ's</span>{' '}
                 </Link>
               </li>

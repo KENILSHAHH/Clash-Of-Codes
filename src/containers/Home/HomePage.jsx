@@ -13,7 +13,7 @@ import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
 
 
 
-import Awardsz from 'components/Awardsz.js';
+import PrizeHeading from 'components/Awardsz.js';
 import Detail from 'components/Detail.js';
 import Domains from 'components/Domains.js';
 import Foot from 'components/Foot.js';
@@ -276,7 +276,7 @@ export default function HomePage() {
   {/* domains here */}
  
         <Domains />
-<Awardsz/>
+<PrizeHeading/>
   {/* <Timeline/> */}
 
 {/* domain ends here */}
