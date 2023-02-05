@@ -13,7 +13,7 @@ function Detail() {
       <div className="row justify-content-center">
         <div className="col-sm-6" style={{marginTop:"0%"}}>
    
-          <img style={{width:"500px"}} src={bg} alt="ietextrinity" />
+          <img  className="img-fluid" src={bg} alt="ietextrinity" />
         </div>
         <div className="col-sm-6">
         
