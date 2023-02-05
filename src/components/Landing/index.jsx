@@ -54,15 +54,24 @@ const About = (props) => {
     <div className="AboutMe" >
       <h2>{TOP_SECTION.TITLE}</h2>
       <MytypedComponent />
-      <h3 style={{ marginBottom:"20px" ,fontSize:"30px"}}>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
-      <h3 style={{fontSize:"30px",marginBottom:"35px"}}>{TOP_SECTION.desc}</h3>
+      <h3 style={{ marginBottom:"20px" ,fontSize:"25px"}}>{TOP_SECTION.SHORT_DESCRIPTION}</h3>
+      <h3 style={{fontSize:"25px",marginBottom:"25px"}}>{TOP_SECTION.desc}</h3>
      <div 
-                className="apply-button"
+                className="d-inline-block apply-button"
                 data-hackathon-slug="clash-of-codes"
                 data-button-theme="light"
                 style={{ height: "44px", width: "312px" }}
-></div>
-      
+      >
+       
+      </div>
+      <div style={{ marginTop: "20px" }}>   <a href="https://discord.com/invite/bdt5kFF7aR" ><Btn
+            icon="fab fa-2x fa-discord"
+            class="join_disco"
+            type="Join Discord For more updates"
+            overlay="Click the link"
+          /></a>  
+    </div> 
+        
         
     </div>
   );

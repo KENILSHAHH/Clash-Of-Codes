@@ -50,7 +50,7 @@ button {
   width: 22rem;
   height: 6rem;
   border: none;
-  border-radius: 19px;
+  border-radius: 10px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
   background-color: black;
@@ -59,8 +59,9 @@ button {
 }
 
 .join_disco {
-  width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  height: 44px;
+  width: auto;
+  background: black;
 }
 
 .join_disco i {
@@ -68,7 +69,7 @@ button {
 }
 
 .join_dis {
-  margin-bottom: 29px;
+  margin-bottom: 1px;
   margin-top: 19px;
   
 }

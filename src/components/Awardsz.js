@@ -33,7 +33,7 @@ function PrizeHeading() {
     </div> */}
           <div
             className="col-sm-6 col-md-4 p-5"
-            style={{borderRadius: '30px', borderColor: '00ffff'}}
+            style={{borderRadius: '30px', borderColor: 'purple'}}
             // style={{
             // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
             // }}
@@ -47,7 +47,7 @@ function PrizeHeading() {
               }}
             >
               {' '}
-              <Glitch color="blue">₹40,000/-</Glitch>
+              <Glitch color="red">₹40,000/-</Glitch>
             </h2>
             <div
               style={{
@@ -80,7 +80,7 @@ function PrizeHeading() {
               }}
             >
               {' '}
-              <Glitch color="yellow">₹20,000/-</Glitch>
+              <Glitch color="green">₹20,000/-</Glitch>
             </h2>
             <div
               style={{
@@ -113,7 +113,7 @@ function PrizeHeading() {
               }}
             >
               {' '}
-              <Glitch color="#00ffff">₹10,000/-</Glitch>
+              <Glitch color="blue">₹10,000/-</Glitch>
             </h2>
             <div
               style={{
@@ -163,7 +163,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹10,000/-</Glitch>
+                <Glitch color="#00ffff">₹10,000/-</Glitch>
               </h2>
               <div
                 style={{
@@ -195,7 +195,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹5,000/-</Glitch>
+                <Glitch color="yellow">₹5,000/-</Glitch>
               </h2>
               <div
                 style={{
@@ -234,7 +234,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹10,000/-</Glitch>
+                <Glitch color="#00ffff">₹10,000/-</Glitch>
               </h2>
               <div
                 style={{
@@ -266,7 +266,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹5,000/-</Glitch>
+                <Glitch color="yellow">₹5,000/-</Glitch>
               </h2>
               <div
                 style={{
@@ -305,7 +305,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹10,000/-</Glitch>
+                <Glitch color="#00ffff">₹10,000/-</Glitch>
               </h2>
               <div
                 style={{
@@ -337,7 +337,7 @@ function PrizeHeading() {
                 }}
               >
                 {' '}
-                <Glitch color="blue">₹5,000/-</Glitch>
+                <Glitch color="yellow">₹5,000/-</Glitch>
               </h2>
               <div
                 style={{

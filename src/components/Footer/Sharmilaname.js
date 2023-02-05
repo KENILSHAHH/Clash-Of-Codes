@@ -2,7 +2,15 @@ import React from 'react'
 import './style.scss'
 function Sharmilaname() {
   return (
-    <div style={{backgroundColor: 'black'}} className="footer_info">
+    <div
+      className="footer_info"
+      style={{
+        backgroundColor: 'black',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+    >
       {/* <p>
             Contact us{' '}
             <a href={SOCIALS.email}>
@@ -40,14 +48,14 @@ function Sharmilaname() {
           color: 'white'
         }}
       >
-        Made with ❤️ by &nbsp;
+        Architected with ❤️ by &nbsp;
         <a href="https://www.linkedin.com/in/sharmila-choudhary-915282214/">
           Sharmila, {'  '}
         </a>{' '}
         &nbsp;
         <a href="https://www.linkedin.com/in/rohan-shah-1676b922a">
           {' '}
-          Rohan 
+          Rohan
         </a>{' '}
         &nbsp; and &nbsp;
         <a

@@ -29,7 +29,7 @@ import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
   About: ' Clash Of Codes is a 24 hour hackathon that gives all the coding enthusiasts an opportunity to create real world applications. The hackathon fosters collaboration, encourages students to pursue careers in technology and boosts creativity to answer numerous problems that humanity faces.Unleash your potential and show us what you’ve got!',
-  TITLE: 'Clash-Of-Codes',
+  TITLE: 'Clash Of Codes',
   Typed_effect: ['Code.', 'Optimize.', 'Collaborate.'],
   SHORT_DESCRIPTION: '4th and 5th March, 2023',
   desc: 'Dwarkadas J Sanghvi College of Engineering, Mumbai',

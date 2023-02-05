@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
+import HALO from 'vanta/dist/vanta.halo.min';
 import NET from 'vanta/dist/vanta.net.min';
 import { Accordion } from '../../components/Accordian/index.jsx';
 import { FirstPrize } from '../../components/Prizes/index.jsx';
@@ -39,6 +40,7 @@ import {
   Bronze, Gold, Silver
 } from '../../Module/General';
 import './about.css';
+import Sharmilaname from 'components/Footer/Sharmilaname.js';
 
 
 const SponsorGroup = (props, index) => {
@@ -220,6 +222,16 @@ export default function HomePage() {
       setVantaEffect(
         NET({
           el: myRef.current,
+          mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  // minHeight: 200.00,
+  // minWidth: 200.00,
+  // backgroundColor: 0x0,
+  // amplitudeFactor: 3.00,
+  // xOffset: 0.19,
+  // yOffset: -0.03,
+  // size: 2.20
           backgroundColor: 0x0,
           color: 0xffff,
           // points: 13.00,
@@ -276,13 +288,14 @@ export default function HomePage() {
   {/* domains here */}
  
         <Domains />
-<PrizeHeading/>
+        <Row className="prizesection" id="prizes"><PrizeHeading/></Row>
+
   {/* <Timeline/> */}
 
 {/* domain ends here */}
 
         {/* ********Prizes here ***** */}
-        {/* <Row className="prizesection" id="prizes">
+        {/* 
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
           {Prizee.map(Prize)}
@@ -322,7 +335,7 @@ export default function HomePage() {
         )}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
-        <Row className="sponsorSection" id="sponsors">
+        <Row className="sponsorSection" id="faqs">
           <Faqs />
           {/* ********Judges here ***** */}
           <div className="container text-center p-5 " style={{color:"white"}} >
@@ -339,8 +352,12 @@ export default function HomePage() {
       <SocialLinks/> */}
       <hr style={{borderWidth:"5px",color:"white"}} />
       {/* <h1>SOcial Media Links</h1> */}
+
       <Footer/>
-      <Foot />
+      <div id="contact"><Foot /></div>
+      
+      {/* <Sharmilaname/> */}
+
    
 
     </div>

@@ -104,19 +104,25 @@ const NAVBAR = ({}) => {
                 </Link>
                 </li>
             
-              <li>
-                <Link to={`#faqs`}>
-                  <span className="links">FAQ's</span>{' '}
-                </Link>
-              </li>
+              
               <li>
                 <Link to={`#prizes`}>
-                  <span className="links" style={{fontFamily:"RubikGlitch"}}>Prizes</span>{' '}
+                  <span className="links"style={{fontFamily:"monospace"}} >Prizes</span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#sponsors`}>
-                  <span className="links">Sponsors</span>{' '}
+                  <span className="links"style={{fontFamily:"monospace"}}>Sponsors</span>{' '}
+                </Link>
+              </li>
+              <li>
+                <Link to={`#faqs`}>
+                  <span className="links" style={{fontFamily:"monospace"}}>FAQ's</span>{' '}
+                </Link>
+              </li>
+               <li>
+                <Link to={`#contact`}>
+                  <span className="links" style={{fontFamily:"monospace"}}>Contact Us</span>{' '}
                 </Link>
               </li>
               
