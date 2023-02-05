@@ -68,7 +68,7 @@ const About = (props) => {
             icon="fab fa-2x fa-discord"
             class="join_disco"
             type="Join Discord for more updates"
-            overlay="Click the link"
+            
           /></a>  
     </div> 
         
