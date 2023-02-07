@@ -19,7 +19,7 @@ function PrizeHeading() {
               alignItems: 'center'
             }}
           >
-            <Glitch color='lightBlue'>Prizes</Glitch>{' '}
+            <Glitch color='lightGreen'>Prizes</Glitch>{' '}
           </h1>
         </div>
         <div className="row">
@@ -139,7 +139,7 @@ function PrizeHeading() {
                 alignItems: 'center'
               }}
             >
-              <Glitch color='lightGreen'>Domain Prizes</Glitch>{' '}
+              <Glitch color='red'>Domain Prizes</Glitch>{' '}
             </h1>
           </div>
           <div className="col-sm-6 col-md-4 p-5">
