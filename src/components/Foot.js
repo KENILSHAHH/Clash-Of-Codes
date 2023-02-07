@@ -21,7 +21,7 @@ function Foot() {
                 }}
                 className="text-uppercase fw-bold mb-4"
               >
-                <Glitch fontSize='20px'>
+                <Glitch fontSize="20px">
                   <i className="fas fa-map-marker-alt me-3"></i>
                   Pin location
                 </Glitch>
@@ -101,6 +101,38 @@ function Foot() {
           </div>
         </div>
       </section>
+      <div className="text-center p-4" style={{backgroundColor: 'black'}}>
+        <h2>
+          {' '}
+          ©2023 Copyright&nbsp; : &nbsp;
+          <a
+            className="text-reset fw-bold"
+            href="https:clash-of-codes.netlify.app"
+          >
+            Clash Of Codes
+          </a>
+        </h2>
+      </div>
+      <div className="text-center p-4" style={{backgroundColor: 'black'}}>
+        <h2>
+          Architected with ❤️ by{' '}
+          <a href="https://www.linkedin.com/in/sharmila-choudhary-915282214/">
+            Sharmila, {'  '}
+          </a>{' '}
+          &nbsp;
+          <a href="https://www.linkedin.com/in/rohan-shah-1676b922a">
+            {' '}
+            Rohan
+          </a>{' '}
+          &nbsp; and &nbsp;
+          <a
+            href="https://www.linkedin.com/in/ishika-jain-40777524a
+"
+          >
+            Ishika
+          </a>
+        </h2>
+      </div>
     </div>
   );
 }
