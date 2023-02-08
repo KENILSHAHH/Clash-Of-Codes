@@ -115,10 +115,8 @@ function Foot() {
       </div>
       <div className="text-center p-4" style={{backgroundColor: 'black'}}>
         <h2>
-          Architected with ❤️ by{' '}
-          <a href="https://www.linkedin.com/in/kenil-shah-619587215/">
-            Kenil, {'  '}
-          </a>{' '}
+          Architected by{' '}
+      
           &nbsp;
           <a href="https://www.linkedin.com/in/sharmila-choudhary-915282214/">
             Sharmila, {'  '}
