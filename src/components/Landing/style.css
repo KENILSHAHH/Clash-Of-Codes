@@ -52,16 +52,16 @@ button {
   border: none;
   border-radius: 10px;
   font-size: 2rem;
-  color: rgb(255, 255, 255);
-  background-color: black;
-  font-weight: 300;
+  color: black;
+  background-color: white;
+  font-weight: 900;
   position: relative;
 }
 
 .join_disco {
-  height: 44px;
+  height: 50px;
   width: auto;
-  background: black;
+  background: hwb(0 100% 0%);
 }
 
 .join_disco i {

@@ -132,7 +132,7 @@ function PrizeHeading() {
               </Glitch>
             </div>
           </div>
-          <hr style={{borderWidth: '5px', color: 'white'}} />
+          
           <div>
             <h1
               style={{

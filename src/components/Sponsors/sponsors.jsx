@@ -21,7 +21,7 @@ function SponsorUS() {
     <div className="joinT sponsorUS">
       <h3 style={{color:"00ffff"}}>Interested in Sponsoring? </h3>
       <a href="mailto:clashofcodeshackathon@gmail.com">
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
+        <Btn className="sponsor_btn" style={{backgroundColor:"white"}} type="Sponsor us"  />
       </a>{' '}
     </div>
   );
