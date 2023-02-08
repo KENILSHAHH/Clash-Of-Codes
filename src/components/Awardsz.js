@@ -1,16 +1,17 @@
-import './style.css';
 import Glitch from 'react-glitch-text';
-import { useGlitch } from 'react-powerglitch';
-import polygon from '../Module/Assets/sponsorsLogos/polygon.png'
-import filecoin from '../Module/Assets/sponsorsLogos/filecoin.png'
-import solana from '../Module/Assets/sponsorsLogos/solana.png'
+import {useGlitch} from 'react-powerglitch';
+import filecoin from '../Module/Assets/sponsorsLogos/filecoin.png';
+import polygon from '../Module/Assets/sponsorsLogos/polygon.png';
+import solana from '../Module/Assets/sponsorsLogos/solana.png';
+import replit from '../Module/Assets/sponsorsLogos/replit.png'
+import './style.css';
 function PrizeHeading() {
-     const glitch = useGlitch();
+  const glitch = useGlitch();
   return (
     <>
       <div className="container text-center p-5 ">
         {' '}
-        <div >
+        <div>
           <h1
             style={{
               color: 'white',
@@ -19,9 +20,10 @@ function PrizeHeading() {
               alignItems: 'center'
             }}
           >
-            <Glitch color='lightGreen'>Prizes</Glitch>{' '}
+            <Glitch color="lightGreen">Overall Prizes</Glitch>{' '}
           </h1>
         </div>
+        <hr style={{borderWidth: '5px', color: 'white'}} />
         <div className="row">
           {/* <div className="col-sm-6 col-md-4 p-5 " >
       <div className="card " style={{height:"250px",width:"auto",borderWidth:"5px",borderColor:"white"}}>
@@ -130,6 +132,7 @@ function PrizeHeading() {
               </Glitch>
             </div>
           </div>
+          <hr style={{borderWidth: '5px', color: 'white'}} />
           <div>
             <h1
               style={{
@@ -139,9 +142,10 @@ function PrizeHeading() {
                 alignItems: 'center'
               }}
             >
-              <Glitch color='red'>Domain Prizes</Glitch>{' '}
+              <Glitch color="red">Domain Prizes</Glitch>{' '}
             </h1>
           </div>
+          <hr style={{borderWidth: '5px', color: 'white'}} />
           <div className="col-sm-6 col-md-4 p-5">
             {' '}
             <Glitch fontSize="23px" color="white">
@@ -211,6 +215,7 @@ function PrizeHeading() {
                   </p>
                 </Glitch>
               </div>
+              <hr style={{borderWidth: '5px', color: 'white'}} />
             </div>
           </div>
           <div className="col-sm-6 col-md-4 p-5">
@@ -225,7 +230,6 @@ function PrizeHeading() {
               // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
               // }}
             >
-              {' '}
               <h2
                 style={{
                   display: 'flex',
@@ -282,6 +286,7 @@ function PrizeHeading() {
                   </p>
                 </Glitch>
               </div>
+              <hr style={{borderWidth: '5px', color: 'white'}} />
             </div>
           </div>
           <div className="col-sm-6 col-md-4 p-5">
@@ -353,10 +358,10 @@ function PrizeHeading() {
                   </p>
                 </Glitch>
               </div>
+              <hr style={{borderWidth: '5px', color: 'white'}} />
             </div>
           </div>
 
-          
           <div>
             <h1
               style={{
@@ -369,8 +374,9 @@ function PrizeHeading() {
               <Glitch color="red">Track Prizes</Glitch>{' '}
             </h1>
           </div>
+          <hr style={{borderWidth: '5px', color: 'white'}} />
           <div
-            className="col-sm-6 col-md-4 p-5"
+            className="p-5"
             style={{borderRadius: '30px', borderColor: '00ffff'}}
             // style={{
             // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
@@ -405,10 +411,11 @@ function PrizeHeading() {
                 </p>
               </Glitch>
             </div>
+            <hr style={{borderWidth: '5px', color: 'white'}} />
           </div>
 
           <div
-            className="col-sm-6 col-md-4 p-5"
+            className=" p-5"
             style={{borderRadius: '30px', borderColor: '00ffff'}}
             // style={{
             // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
@@ -451,10 +458,11 @@ function PrizeHeading() {
                 </p>
               </Glitch>
             </div>
+            <hr style={{borderWidth: '5px', color: 'white'}} />
           </div>
 
           <div
-            className="col-sm-6 col-md-4 p-5"
+            className=" p-5"
             style={{borderRadius: '30px', borderColor: '00ffff'}}
             // style={{
             // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
@@ -476,7 +484,7 @@ function PrizeHeading() {
                     alt=""
                   />
                   <p>
-                    &#x2022;Young gun - $USDC 100 for the best beginner project 
+                    &#x2022;Young gun - $USDC 100 for the best beginner project
                   </p>
                   <p>
                     &#x2022; Rising teknoking - $USDC 250 for the best project
@@ -485,7 +493,7 @@ function PrizeHeading() {
                   <p>
                     {' '}
                     &#x2022;Master glasseater - $USDC 500 for the best advanced
-                    project {' '}
+                    project{' '}
                   </p>
                   <p>
                     Eligibility to apply for equity free grants ranging upto
@@ -495,6 +503,48 @@ function PrizeHeading() {
                 </p>
               </Glitch>
             </div>
+            <hr style={{borderWidth: '5px', color: 'white'}} />
+          </div>
+          <div
+            className= "p-5"
+            style={{borderRadius: '30px', borderColor: '00ffff'}}
+            // style={{
+            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+            // }}
+          >
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+              className="card-body"
+            >
+              <Glitch color="white">
+                <p style={{fontSize: '25px'}} className="card-text">
+                  <img
+                    src={replit}
+                    style={{width: '300px', marginBottom: '30px'}}
+                    alt=""
+                  />
+                  <p>
+                    &#x2022;$50 to the winning project of the hackathon (must be
+                    deployed on Replit)
+                  </p>
+                  <p>
+                    &#x2022;Replit schwags to 5 eligible submissions deployed on
+                    Replit.
+                  </p>
+                  <p>
+                    {' '}
+                    &#x2022;Eligibility to apply for internship/full-time roles
+                    at Replit
+                  </p>
+                 
+                </p>
+              </Glitch>
+            </div>
+            <hr style={{borderWidth: '5px', color: 'white'}} />
           </div>
 
           {/* <div style={{fontSize: '25px', margin: '20px', fontWeight: 'bold'}}>
