@@ -235,7 +235,7 @@ export default function HomePage() {
   // size: 2.20
           backgroundColor: 0x0,
         color: 0x0,
-  shininess: 150.00,
+  shininess: 47.00,
   waveHeight: 40.00,
   waveSpeed: 0.55,
   zoom: 1.06
