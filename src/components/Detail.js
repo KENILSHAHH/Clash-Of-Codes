@@ -34,7 +34,7 @@ function Detail() {
                 The hackathon fosters collaboration, encourages students to
                 pursue careers in technology and boosts creativity to answer
                 numerous problems that humanity faces.Unleash your potential and
-                show us what you’ve got!
+                show us what you’ve got.
               </p>
             </Glitch>
             <div>
