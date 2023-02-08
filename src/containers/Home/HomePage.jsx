@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import styled from 'styled-components';
 import HALO from 'vanta/dist/vanta.halo.min';
 import NET from 'vanta/dist/vanta.net.min';
+import WAVES from 'vanta/dist/vanta.waves.min';
 import { Accordion } from '../../components/Accordian/index.jsx';
 import { FirstPrize } from '../../components/Prizes/index.jsx';
 import { SponsorUS } from '../../components/Sponsors/sponsors.jsx';
@@ -220,7 +221,7 @@ export default function HomePage() {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        NET({
+          WAVES({
           el: myRef.current,
           mouseControls: true,
   touchControls: true,
@@ -233,13 +234,11 @@ export default function HomePage() {
   // yOffset: -0.03,
   // size: 2.20
           backgroundColor: 0x0,
-          color: 0xffff,
-          // points: 13.00,
-          // maxDistance: 19.00,
-          // spacing: 19.00
-          points: 9.0,
-          maxDistance: 22.0,
-          spacing: 20.0
+        color: 0x0,
+  shininess: 150.00,
+  waveHeight: 40.00,
+  waveSpeed: 0.55,
+  zoom: 1.06
         })
       );
     }

@@ -45,7 +45,8 @@ const Footer = () => {
     
       
        {/* <div dangerouslySetInnerHTML={{__html: textWithLineBreaks}} /> */}
-      <div className="footer" style={{backgroundColor:"black"}}>
+      <div className="footer" style={{ backgroundColor: "black" }}>
+        <h1 style={{color:"white"}}>  </h1>
         <div className="social-icons-container">
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
