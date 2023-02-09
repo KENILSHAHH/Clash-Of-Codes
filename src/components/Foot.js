@@ -116,18 +116,13 @@ function Foot() {
       <div className="text-center p-4" style={{backgroundColor: 'black'}}>
         <h2>
           Architected by{' '}
-          <a href="https://www.linkedin.com/in/sharmila-choudhary-915282214/">
-            Kenil, 
-          </a>
+          <a href="https://www.linkedin.com/in/kenil-shah-619587215/">Kenil,</a>
           &nbsp;
           <a href="https://www.linkedin.com/in/sharmila-choudhary-915282214/">
             Sharmila,
           </a>
           &nbsp;
-          <a href="https://www.linkedin.com/in/rohan-shah-1676b922a">
-            
-            Rohan
-          </a>
+          <a href="https://www.linkedin.com/in/rohan-shah-1676b922a">Rohan</a>
           &nbsp; and &nbsp;
           <a
             href="https://www.linkedin.com/in/ishika-jain-40777524a
