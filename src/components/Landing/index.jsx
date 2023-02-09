@@ -67,7 +67,7 @@ const About = (props) => {
       <div style={{ marginTop: "20px" }}>   <a href="https://discord.com/invite/bdt5kFF7aR" ><Btn
             icon="fab fa-2x fa-discord"
             class="join_disco"
-            type="Join Discord for more updates"
+            type="Join Discord Channel"
             
           /></a>  
     </div> 
