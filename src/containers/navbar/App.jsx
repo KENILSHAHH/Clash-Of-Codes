@@ -97,8 +97,8 @@ const NAVBAR = ({}) => {
         <Wrapper toggle={toggle}>
           <div className="nav-content" ref={navigation}>
             <ul>
-            <li>
-                <Link to={`#home`}>
+            <li >
+                <Link  to={`#home`}>
 <img src="https://i.ibb.co/nDdRq5k/COCLOGO.jpg" width="40" height="40" />
                   
                 </Link>
@@ -106,22 +106,22 @@ const NAVBAR = ({}) => {
             
               
               <li>
-                <Link to={`#prizes`}>
+                <Link to={`#prizes`} style={{textDecoration:"none"}}>
                   <span className="links"style={{fontFamily:"monospace"}} >Prizes</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#sponsors`}>
+                <Link to={`#sponsors`} style={{textDecoration:"none"}}>
                   <span className="links"style={{fontFamily:"monospace"}}>Sponsors</span>{' '}
                 </Link>
               </li>
               <li>
-                <Link to={`#faqs`}>
+                <Link to={`#faqs`} style={{textDecoration:"none"}}>
                   <span className="links" style={{fontFamily:"monospace"}}>FAQ's</span>{' '}
                 </Link>
               </li>
                <li>
-                <Link to={`#contact`}>
+                <Link to={`#contact`} style={{textDecoration:"none"}}>
                   <span className="links" style={{fontFamily:"monospace"}}>Contact Us</span>{' '}
                 </Link>
               </li>
