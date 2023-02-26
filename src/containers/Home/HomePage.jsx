@@ -38,7 +38,7 @@ import './about.css';
 
 
 import {
-  Bronze, Gold, Silver
+  Bronze, Gold, Silver,Title
 } from '../../Module/General';
 import './about.css';
 import Sharmilaname from 'components/Footer/Sharmilaname.js';
@@ -58,6 +58,21 @@ const SponsorGroup = (props, index) => {
 };
 const SponsorBronze = (props, index) => {
   return (
+    <>
+    <Row key={index}>
+      {props.map((s, i) => (
+        <Col key={i} className="" sm={12} lg={4} md={6}>
+          {' '}
+          <Sponsor srcx={s.src} />{' '}
+        </Col>
+      ))}
+    </Row>
+    
+    </>
+  );
+};
+const Sponsorgroup = (props, index) => {
+  return (
     <Row key={index}>
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={6} md={6}>
@@ -68,11 +83,12 @@ const SponsorBronze = (props, index) => {
     </Row>
   );
 };
-const Sponsorgroup = (props, index) => {
+
+const SponsorTitle = (props, index) => {
   return (
     <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={6} md={6}>
+        <Col key={i} className="" sm={12} lg={12} md={12}>
           {' '}
           <Sponsor srcx={s.src} />{' '}
         </Col>
@@ -312,13 +328,18 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
          {/* <h1>Title sponsors</h1> */}
+         <h1 style={{color:"blue"}}>Title Sponsor</h1>
+          {Title.map(SponsorTitle)}
          <h1 style={{color:"DFB722"}}>Gold Sponsors</h1>
           {Gold.map(Sponsorgroup)}
           <h1 style={{color:"BBC2CC"}}>Silver Sponsors</h1>
           {Silver.map(SponsorGroup)}
         
-          <h1 style={{color:"CD7F32"}}>Bronze Sponsor</h1>
+          <h1 style={{color:"CD7F32"}}>Bronze Sponsors</h1>
           {Bronze.map(SponsorBronze)}
+
+
+         
           <SponsorUS />
         </Row>
         {/* ********Sponsors ending here ***** */}
