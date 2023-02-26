@@ -13,7 +13,11 @@ import replit from './Assets/sponsorsLogos/replit.png';
 import solana from './Assets/sponsorsLogos/solana.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
 import lyin from './Assets/teami/lyin.jpg';
+import sybgen from './Assets/sponsorsLogos/sybgen.png';
+import noescape from './Assets/sponsorsLogos/noescape.png';
+import celo from './Assets/sponsorsLogos/celo.png';
 import './style.css';
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -647,8 +651,12 @@ const Gold = [
   //Array 4
 ];
 const Bronze = [
-[{src : taskade} , {src : wolfram}]
+[{src : taskade} , {src : wolfram},{ src : sybgen}, {src : noescape}]
 ]
+const Title =  [
+  [{src: celo}]
+  //Array 4
+];
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
@@ -714,6 +722,7 @@ export {
   Silver,
   Gold,
   Bronze,
+  Title,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,
