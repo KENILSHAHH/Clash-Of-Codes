@@ -16,6 +16,7 @@ import lyin from './Assets/teami/lyin.jpg';
 import sybgen from './Assets/sponsorsLogos/sybgen.png';
 import noescape from './Assets/sponsorsLogos/noescape.png';
 import celo from './Assets/sponsorsLogos/celo.png';
+import idyll from './Assets/sponsorsLogos/idyll.png'; 
 import './style.css';
 
 
@@ -651,7 +652,7 @@ const Gold = [
   //Array 4
 ];
 const Bronze = [
-[{src : taskade} , {src : wolfram},{ src : sybgen}, {src : noescape}]
+[{src : taskade} , {src : wolfram},{ src : sybgen}, {src : noescape},{src : idyll}]
 ]
 const Title =  [
   [{src: celo}]

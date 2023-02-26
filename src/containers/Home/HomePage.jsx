@@ -58,14 +58,17 @@ const SponsorGroup = (props, index) => {
 };
 const SponsorBronze = (props, index) => {
   return (
+    <>
     <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={6} md={6}>
+        <Col key={i} className="" sm={12} lg={4} md={6}>
           {' '}
           <Sponsor srcx={s.src} />{' '}
         </Col>
       ))}
     </Row>
+    
+    </>
   );
 };
 const Sponsorgroup = (props, index) => {
@@ -332,7 +335,7 @@ export default function HomePage() {
           <h1 style={{color:"BBC2CC"}}>Silver Sponsors</h1>
           {Silver.map(SponsorGroup)}
         
-          <h1 style={{color:"CD7F32"}}>Bronze Sponsor</h1>
+          <h1 style={{color:"CD7F32"}}>Bronze Sponsors</h1>
           {Bronze.map(SponsorBronze)}
 
 
