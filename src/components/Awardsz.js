@@ -3,7 +3,8 @@ import {useGlitch} from 'react-powerglitch';
 import filecoin from '../Module/Assets/sponsorsLogos/filecoin.png';
 import polygon from '../Module/Assets/sponsorsLogos/polygon.png';
 import solana from '../Module/Assets/sponsorsLogos/solana.png';
-import replit from '../Module/Assets/sponsorsLogos/replit.png'
+import replit from '../Module/Assets/sponsorsLogos/replit.png';
+import celo from  '../Module/Assets/sponsorsLogos/celo.png';
 import './style.css';
 function PrizeHeading() {
   const glitch = useGlitch();
@@ -460,7 +461,37 @@ function PrizeHeading() {
             </div>
             <hr style={{borderWidth: '5px', color: 'white'}} />
           </div>
-
+          <div
+            className= "p-5"
+            style={{borderRadius: '30px', borderColor: '00ffff'}}
+            // style={{
+            // boxShadow:"0 0 10px rgba(0,0,0,0.3)"
+            // }}
+          >
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+              className="card-body"
+            >
+              <Glitch color="white">
+                <p style={{fontSize: '25px'}} className="card-text">
+                  <img
+                    src={celo}
+                    style={{width: '300px', marginBottom: '30px'}}
+                    alt=""
+                  />
+                  <p>
+                    &#x2022;₹10,000(125 cUSD) for the best hack built on Celo Blockchain
+                  </p>
+                 
+                </p>
+              </Glitch>
+            </div>
+            <hr style={{borderWidth: '5px', color: 'white'}} />
+          </div>
           <div
             className=" p-5"
             style={{borderRadius: '30px', borderColor: '00ffff'}}
@@ -546,6 +577,7 @@ function PrizeHeading() {
             </div>
             <hr style={{borderWidth: '5px', color: 'white'}} />
           </div>
+         
 
           {/* <div style={{fontSize: '25px', margin: '20px', fontWeight: 'bold'}}>
             {' '}
